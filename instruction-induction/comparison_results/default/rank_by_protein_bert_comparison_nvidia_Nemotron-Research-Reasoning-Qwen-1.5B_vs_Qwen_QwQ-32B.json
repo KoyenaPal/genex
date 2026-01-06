@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: Reorder the given list of inputs in alphabetical order based on the first word and then the rest.\n\n**Step-by-Step Explanation:**\n\n1.",
+    "model2_output": "The instruction is: Arrange the items in the order of protein (first item), then legumes, nuts, grains, vegetables, and finally fruits.\n\nWait let me try",
+    "bert_1_to_2": 0.6060221791267395,
+    "bert_2_to_1": 0.6060221791267395,
+    "bert_score": 0.6060221791267395,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Sort the inputs in the order of their first occurrence in the outputs.\"\n\nWait, looking at the outputs, perhaps it's sorting the inputs in the",
+    "model2_output": "The instruction is: **Sort the ingredients in the following order: animal proteins first, followed by plant-based proteins, grains, vegetables, fruits, and finally oils/fats",
+    "bert_1_to_2": 0.4811083674430847,
+    "bert_2_to_1": 0.4811083674430847,
+    "bert_score": 0.4811083674430847,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "5": {
+    "model1_output": "The instruction is: Reorder the inputs by moving the first element to the first position, then shifting the rest cyclically to the left by one position.\n\nBased on the",
+    "model2_output": "The instruction is: \"Arrange the items so that after the first item, the next three are ordered as legumes, grains, seeds, followed by the last item.\"",
+    "bert_1_to_2": 0.6223875284194946,
+    "bert_2_to_1": 0.6223875284194946,
+    "bert_score": 0.6223875284194946,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"Arrange the items in the order: first item, fourth item, second item, last item, third item.\"\n\nSo the instruction is to rearrange",
+    "model2_output": "The instruction is: **Arrange the ingredients in the order of protein, legumes, pasta, greens, and oil.**\n\n### Explanation:\nEach input list contains one item",
+    "bert_1_to_2": 0.6112378835678101,
+    "bert_2_to_1": 0.6112378835678101,
+    "bert_score": 0.6112378835678101,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"Make a salad with [list of ingredients].\"\n\nWait let me look at the pattern from the rearranged inputs and outputs.\n\nLooking at the first",
+    "model2_output": "The instruction is: **Arrange the items in the order of protein, beans, pasta, lettuce, and oil.**\n\n### Explanation:\nThe output lists follow a strict categorical",
+    "bert_1_to_2": 0.5485737919807434,
+    "bert_2_to_1": 0.5485737919807434,
+    "bert_score": 0.5485737919807434,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.5738659501075745,
+  "task_name": "rank_by_protein",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "Qwen_QwQ-32B"
+}

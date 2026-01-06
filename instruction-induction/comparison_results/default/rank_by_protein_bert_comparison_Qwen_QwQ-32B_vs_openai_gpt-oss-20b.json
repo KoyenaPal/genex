@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: Arrange the items in the order of protein (first item), then legumes, nuts, grains, vegetables, and finally fruits.\n\nWait let me try",
+    "model2_output": "The instruction is: **“Move the item that is a protein source to the front, keep the rest in the same order, but place the fruit (or sweet item",
+    "bert_1_to_2": 0.5854262709617615,
+    "bert_2_to_1": 0.5854262709617615,
+    "bert_score": 0.5854262709617615,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: **Sort the ingredients in the following order: animal proteins first, followed by plant-based proteins, grains, vegetables, fruits, and finally oils/fats",
+    "model2_output": "The instruction is: **“Sort the foods in the list by food‑group, putting animal protein first, then legumes, then nuts, then grains, then vegetables/fr",
+    "bert_1_to_2": 0.7413013577461243,
+    "bert_2_to_1": 0.7413013577461243,
+    "bert_score": 0.7413013577461243,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Arrange the items so that after the first item, the next three are ordered as legumes, grains, seeds, followed by the last item.\"",
+    "model2_output": "The instruction is: **“Re‑order the list so that the bean comes in the second slot, the grain in the third slot, and the seed in the fourth",
+    "bert_1_to_2": 0.6544767618179321,
+    "bert_2_to_1": 0.6544767618179321,
+    "bert_score": 0.6544767618179321,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: **Arrange the ingredients in the order of protein, legumes, pasta, greens, and oil.**\n\n### Explanation:\nEach input list contains one item",
+    "model2_output": "The instruction is: **“Re‑order the five items so that the protein comes first, the beans second, the pasta third, the lettuce fourth, and the oil",
+    "bert_1_to_2": 0.6382381319999695,
+    "bert_2_to_1": 0.6382381319999695,
+    "bert_score": 0.6382381319999695,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: **Arrange the items in the order of protein, beans, pasta, lettuce, and oil.**\n\n### Explanation:\nThe output lists follow a strict categorical",
+    "model2_output": "The instruction is: **“Re‑order each list so that the items appear in the order  \n1st item → 4th item → 2nd item →",
+    "bert_1_to_2": 0.5801436305046082,
+    "bert_2_to_1": 0.5801436305046082,
+    "bert_score": 0.5801436305046082,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6399172306060791,
+  "task_name": "rank_by_protein",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

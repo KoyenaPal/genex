@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Check their current status, their satisfaction, the current weather, their current feelings, and offer assistance.\"\n\nBut to make it precise, let me structure",
+    "model2_output": "The instruction is: \"Translate the given sentence into English, starting with 'Hello, how are you?' followed by the rest of the translated sentence in a natural way.\"",
+    "bert_1_to_2": 0.5278368592262268,
+    "bert_2_to_1": 0.5278368592262268,
+    "bert_score": 0.5278368592262268,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Where is the library?\"\n\nSo the final answer is:\n\nWhere is the library?\n\nBut let me confirm by looking at all outputs:\n\nAll outputs start",
+    "model2_output": "The instruction is: **\"Translate each input into English, preserving both the question about the library's location and the gratitude expression exactly as they are translated.\"**\n\n### Explanation",
+    "bert_1_to_2": 0.4756779670715332,
+    "bert_2_to_1": 0.4756779670715332,
+    "bert_score": 0.4756779670715332,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"أحب القراءة في المساء. إنه وقتي المفضل.\"\n\nSo the instruction is: \"I love reading in the evening and",
+    "model2_output": "The instruction is: **\"Translate each input sentence into English.\"** \n\nThe friend was asked to take each input in its original language (Arabic, Hebrew, Hindi",
+    "bert_1_to_2": 0.41125017404556274,
+    "bert_2_to_1": 0.41125017404556274,
+    "bert_score": 0.41125017404556274,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"I want to tell you about the things I love and enjoy.\"\n\nAlternatively, the instruction could be \"I want to describe the topics I've been",
+    "model2_output": "The instruction is: **\"Translate the given sentence into English.\"**\n\nEach input is a sentence in a different language (Hungarian, Icelandic, Estonian, Latv",
+    "bert_1_to_2": 0.4373817443847656,
+    "bert_2_to_1": 0.4373817443847656,
+    "bert_score": 0.4373817443847656,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"I like cooking, reading, and enjoying music and certain dishes.\"\n\nBut to match the exact outputs, let me try to compile the key elements.",
+    "model2_output": "The instruction is: **\"Translate each sentence into English, preserving the meaning and structure.\"**  \n\nThe friend was asked to take each input (written in Russian, Bulgarian",
+    "bert_1_to_2": 0.5102068781852722,
+    "bert_2_to_1": 0.5102068781852722,
+    "bert_score": 0.5102068781852722,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.47247072458267214,
+  "task_name": "multi_lang_to_english",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "Qwen_QwQ-32B"
+}

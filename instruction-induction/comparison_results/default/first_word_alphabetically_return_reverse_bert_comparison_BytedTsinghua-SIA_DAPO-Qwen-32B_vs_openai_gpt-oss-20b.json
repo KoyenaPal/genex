@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Find the word that comes first alphabetically in the list and reverse that word.\"\n\nTo confirm:\n\n1. For the input: zebra, apple",
+    "model2_output": "The instruction is: **“Take the word that is a palindrome in the list, reverse it, and output that reversed word.”**<|return|>",
+    "bert_1_to_2": 0.6274983882904053,
+    "bert_2_to_1": 0.6274983882904053,
+    "bert_score": 0.6274983882904053,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each list of words, find the word that comes first alphabetically, reverse it, and capitalize the first letter of the reversed word.\n\nLet's",
+    "model2_output": "The instruction is:  \n\n**“Take the alphabetically first word in the list, reverse it, and keep the original capitalization of its first letter (moving that letter to",
+    "bert_1_to_2": 0.7051801085472107,
+    "bert_2_to_1": 0.7051801085472107,
+    "bert_score": 0.7051801085472107,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Take the last word from the list and reverse it.\"\n\nLet's apply this instruction to each of the given input-output pairs to verify:\n\n1.",
+    "model2_output": "The instruction is: **“Take the last word in the list and write it backwards.”**<|return|>",
+    "bert_1_to_2": 0.7019739151000977,
+    "bert_2_to_1": 0.7019739151000977,
+    "bert_score": 0.7019739151000977,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"Take the last word from the list and reverse its letters.\"\n\nSo the final answer is: Take the last word from the list and reverse its letters",
+    "model2_output": "The instruction is: **“Take the last word of the list, reverse it, and then remove every other letter starting with the first.”**<|return|>",
+    "bert_1_to_2": 0.583688497543335,
+    "bert_2_to_1": 0.583688497543335,
+    "bert_score": 0.583688497543335,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"Take the last word from the list and reverse it.\"\n\nSo the answer is: Take the last word from the list and reverse it.<|endoftext|>",
+    "model2_output": "The instruction is: **“Take the last word in the list and write it backwards.”**<|return|>",
+    "bert_1_to_2": 0.6364197731018066,
+    "bert_2_to_1": 0.6364197731018066,
+    "bert_score": 0.6364197731018066,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.650952136516571,
+  "task_name": "first_word_alphabetically_return_reverse",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

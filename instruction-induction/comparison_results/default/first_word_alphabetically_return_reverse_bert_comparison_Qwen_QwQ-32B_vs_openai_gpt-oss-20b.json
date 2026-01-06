@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: Take the second word in the input list, reverse it, and capitalize the last letter if it's a consonant? Wait, but in the third",
+    "model2_output": "The instruction is: **“Take the word that is a palindrome in the list, reverse it, and output that reversed word.”**<|return|>",
+    "bert_1_to_2": 0.6548292636871338,
+    "bert_2_to_1": 0.6548292636871338,
+    "bert_score": 0.6548292636871338,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each input list, take the word that comes last alphabetically, reverse it, and capitalize the last letter if it was originally lowercase, or something",
+    "model2_output": "The instruction is:  \n\n**“Take the alphabetically first word in the list, reverse it, and keep the original capitalization of its first letter (moving that letter to",
+    "bert_1_to_2": 0.7179730534553528,
+    "bert_2_to_1": 0.7179730534553528,
+    "bert_score": 0.7179730534553528,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: **Reverse the last word in the list.**\n\nFor each input list, the output is the last word spelled backward:\n- **jacket** →",
+    "model2_output": "The instruction is: **“Take the last word in the list and write it backwards.”**<|return|>",
+    "bert_1_to_2": 0.6253612637519836,
+    "bert_2_to_1": 0.6253612637519836,
+    "bert_score": 0.6253612637519836,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each input list of words, take the last word and reverse its letters to form the output. \n\nWait, but in the fifth case, the",
+    "model2_output": "The instruction is: **“Take the last word of the list, reverse it, and then remove every other letter starting with the first.”**<|return|>",
+    "bert_1_to_2": 0.6717424392700195,
+    "bert_2_to_1": 0.6717424392700195,
+    "bert_score": 0.6717424392700195,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: Take the last letters of each word in the input list, then reverse the order of those letters, and then concatenate them all together.\n\nWait let's",
+    "model2_output": "The instruction is: **“Take the last word in the list and write it backwards.”**<|return|>",
+    "bert_1_to_2": 0.6856563687324524,
+    "bert_2_to_1": 0.6856563687324524,
+    "bert_score": 0.6856563687324524,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6711124777793884,
+  "task_name": "first_word_alphabetically_return_reverse",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

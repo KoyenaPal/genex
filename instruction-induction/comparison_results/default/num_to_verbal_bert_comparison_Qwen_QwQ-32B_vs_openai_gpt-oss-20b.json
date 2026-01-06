@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Convert the number into its British English word form, using commas to separate thousands and hundreds, and include 'and' where appropriate.\"\n\nTo elaborate,",
+    "model2_output": "The instruction is:  \n\n> **“Write the given integer in words (British English), using commas to separate the thousands, and insert the word “and” before the",
+    "bert_1_to_2": 0.7530816197395325,
+    "bert_2_to_1": 0.7530816197395325,
+    "bert_score": 0.7530816197395325,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: **\"Write the number in words using British English conventions, including commas after thousands, 'and' before the last two digits when applicable, and hy",
+    "model2_output": "The instruction is:  \n\n> **“Write the number in words, using commas to separate the thousands and hundreds, and insert the word “and” before the last part",
+    "bert_1_to_2": 0.7659698724746704,
+    "bert_2_to_1": 0.7659698724746704,
+    "bert_score": 0.7659698724746704,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Convert the number into its written form in British English, using commas to separate thousands from hundreds, including 'and' after the hundreds place when there",
+    "model2_output": "The instruction is:  \n\n> **“Write the number in words, using British English conventions.  \n>  Use commas after the thousands place, and insert the word “",
+    "bert_1_to_2": 0.692417562007904,
+    "bert_2_to_1": 0.6924174427986145,
+    "bert_score": 0.6924175024032593,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: **\"Convert the number into its British English word form, using 'and' after thousand and hundred where appropriate, commas to separate thousands from hundreds,",
+    "model2_output": "The instruction is: **“Spell the number out in words (British English style), putting a comma between the thousands and the hundreds only when the hundreds digit is non‑",
+    "bert_1_to_2": 0.6981098055839539,
+    "bert_2_to_1": 0.6981098055839539,
+    "bert_score": 0.6981098055839539,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"Convert the number into its written form in British English, including 'and' where appropriate.\" Here's the detailed breakdown:\n\n1. **Thousands Place",
+    "model2_output": "The instruction is: **“Spell the number out in words, using British‑English style.  \nUse commas to separate the thousands and hundreds, hyphens between the",
+    "bert_1_to_2": 0.6204395294189453,
+    "bert_2_to_1": 0.6204395294189453,
+    "bert_score": 0.6204395294189453,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.7060036659240723,
+  "task_name": "num_to_verbal",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

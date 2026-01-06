@@ -1,0 +1,334 @@
+import argparse
+import json
+import string
+from collections import Counter
+import re
+from tqdm import tqdm
+
+import glob
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+from bert_score import score as bert_score
+import random
+import re
+import os
+import numpy as np
+
+random.seed(42)
+np.random.seed(42)
+os.environ['PYTHONHASHSEED'] = '42'
+
+# TASK_TO_METRIC = {'common_concept': 'f1', 'informal_to_formal': 'f1', 'orthography_starts_with': 'es',
+#                   'taxonomy_animal': 'es', 'synonyms': 'contains'}
+
+TASK_TO_METRIC = {}
+
+
+# INDUCTION_TASKS = ['active_to_passive', 'antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',
+#                    'informal_to_formal', 'larger_animal', 'letters_list', 'negation', 'num_to_verbal',
+#                    'orthography_starts_with', 'rhymes', 'second_word_letter', 'sentence_similarity', 'sentiment',
+#                    'singular_to_plural', 'sum', 'synonyms', 'taxonomy_animal', 'translation_en-de', 'translation_en-es',
+#                    'translation_en-fr', 'word_in_context', 'reverse_from_middle', 'smallest_item_length', 'smallest_even_no_sqrt', 'most_vowel_return_consonant', 'detect_rhyme_and_rewrite', 'rank_by_protein', 'multi_lang_to_english', 'square_of_zodiac_animal', 'alternate_synonym_antonym', 'most_consonant_return_vowel', 'least_unique_word_count', 'first_word_alphabetically_return_reverse']
+
+INDUCTION_TASKS = ['cause_and_effect', 'larger_animal', 'num_to_verbal','orthography_starts_with',
+                   'rhymes', 'synonyms', 'taxonomy_animal', 'translation_en-fr',
+                   'reverse_from_middle', 'smallest_item_length', 'smallest_even_no_sqrt', 'most_vowel_return_consonant',
+                   'detect_rhyme_and_rewrite', 'rank_by_protein','multi_lang_to_english','square_of_zodiac_animal',
+                   'alternate_synonym_antonym', 'most_consonant_return_vowel', 'least_unique_word_count', 'first_word_alphabetically_return_reverse']
+
+
+def cosine(a, b):
+    """Cosine similarity between two vectors."""
+    a, b = np.array(a), np.array(b)
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+    
+def get_sim_score(prediction: str, ground_truth: list[str], threshold: float = 0.5):
+    """
+    Compute similarity score between prediction and ground truth annotations.
+
+    Args:
+        prediction (str): the LLM's predicted interpretation of an instruction
+        ground_truth (list[str]): list of annotation strings from a task JSON
+        threshold (float): cutoff for binary match (default=0.8)
+
+    Returns:
+        tuple (float, int): (similarity score, binary match flag)
+                           score is 0–1
+                           flag is 1 if score >= threshold else 0
+    """
+    # Encode prediction and ground truth annotations
+    print("Prediction")
+    print(prediction, flush=True)
+    sentence_model = SentenceTransformer("google/embeddinggemma-300m")
+    pred_emb = sentence_model.encode(prediction, convert_to_numpy=True)
+    gt_embs = sentence_model.encode(ground_truth, convert_to_numpy=True)
+
+    # Compute similarities
+    sims = [cosine(pred_emb, gt_emb) for gt_emb in gt_embs]
+
+    # Take max similarity (best match in cluster)
+    score = float(max(sims))
+    print(score, flush=True)
+    # Apply threshold
+    #match = 1 if score >= threshold else 0
+
+    return score
+
+
+
+#https://arxiv.org/pdf/1904.09675
+from bert_score import score as bert_score
+
+def get_bertscore(prediction: str, ground_truth: list[str]):
+    """
+    Compute BERTScore similarity between prediction and ground truth annotations,
+    Returns the maximum F1 score across all references.
+
+    Args:
+        prediction (str): the LLM's predicted interpretation of an instruction
+        ground_truth (list[str]): list of annotation strings from a task JSON
+
+    Returns:
+        float: max F1 score among all references (0–1)
+    """
+    if not ground_truth:
+        return 0.0
+
+    # Duplicate prediction for each ground-truth reference
+    normalized_prediction = normalize_prediction(prediction, lowercase=True)
+    normalize_gts = []
+    for gt in ground_truth:
+        normalize_gts.append(normalize_prediction(gt, lowercase=True))
+    print("Normalized prediction", normalized_prediction, flush=True)
+    normalized_predictions = [normalized_prediction] * len(normalize_gts)
+
+    # Compute BERTScore
+    P, R, F1 = bert_score(
+        cands=normalized_predictions,
+        refs=normalize_gts,
+        model_type="microsoft/deberta-xlarge-mnli",
+        idf=True,
+        rescale_with_baseline=False,
+    )
+    # Take the maximum F1 across references
+    score = float(F1.max().item())
+
+    return score
+
+
+
+def normalize_prediction(prediction, lowercase=True):
+    prediction = prediction.replace(' and ', ' ')
+    prediction = prediction.replace('Sentence 1:', ' ')
+    prediction = prediction.replace('Sentence 2:', ' ')
+    prediction = prediction.replace('<|return|>', '')
+    prediction = prediction.replace('<|im_end|>', '')
+    prediction = prediction.replace('<|endoftext|>', '')
+    prediction = prediction.strip()
+    # prediction = prediction.split("\n")[0]
+    prediction = prediction.split("<think>")[-1]
+    prediction = prediction.split(".")[0]
+    if lowercase:
+        prediction = prediction.lower()
+
+    # remove punctuation
+    prediction = prediction.replace('-', ' ')
+    prediction = prediction.translate(str.maketrans('', '', string.punctuation))
+    prediction = re.sub(r"\s+", " ", prediction).strip()
+    return prediction
+
+
+def get_f1_score(prediction, ground_truth):
+    prediction_tokens = normalize_prediction(prediction, lowercase=True).split()
+    ground_truth_tokens = normalize_prediction(ground_truth, lowercase=True).split()
+    common = Counter(prediction_tokens) & Counter(ground_truth_tokens)
+    num_same = sum(common.values())
+    if num_same == 0:
+        return 0
+    precision = 1.0 * num_same / len(prediction_tokens)
+    recall = 1.0 * num_same / len(ground_truth_tokens)
+    f1 = (2 * precision * recall) / (precision + recall)
+    return f1
+
+
+def get_em_score(prediction, ground_truth):
+    prediction_normalized = normalize_prediction(prediction, lowercase=True)
+    ground_truth_normalized = normalize_prediction(ground_truth, lowercase=True)
+    return prediction_normalized == ground_truth_normalized
+
+
+def get_exact_set_score(prediction, ground_truth):
+    prediction_normalized = normalize_prediction(prediction, lowercase=True).split()
+    ground_truth_normalized = normalize_prediction(ground_truth, lowercase=True).split()
+    return int(set(prediction_normalized) == set(ground_truth_normalized))
+
+
+def get_contains_score(prediction, ground_truth):
+    prediction_normalized = normalize_prediction(prediction, lowercase=True)
+    ground_truth_normalized = normalize_prediction(ground_truth, lowercase=True)
+    if re.search(r'\b({0})\b'.format(ground_truth_normalized), prediction_normalized):
+        return 1
+
+
+def get_multi_answer_em(prediction, answers):
+    for answer in answers:
+        if get_em_score(prediction, answer) == 1:
+            return 1
+    return 0
+
+
+def get_multi_answer_f1(prediction, answers):
+    f1_scores = []
+    for answer in answers:
+        f1_scores.append(get_f1_score(prediction, answer))
+    return max(f1_scores)
+
+
+def get_multi_answer_exact_set(prediction, answers):
+    for answer in answers:
+        if get_exact_set_score(prediction, answer) == 1:
+            return 1
+    return 0
+
+
+def get_multi_answer_contains(prediction, answers):
+    for answer in answers:
+        if get_contains_score(prediction, answer) == 1:
+            return 1
+    return 0
+
+
+def get_weighted_task_score(scored_predictions):
+    """Get the task overall score, weighted according to the instructions prediction frequencies."""
+    id_to_counter = {}
+    id_to_score = {}
+    for instruction_id, instruction_data in scored_predictions.items():
+        #id_to_counter[instruction_id] = instruction_data['prediction_counter']
+        id_to_counter[instruction_id] = 1
+        id_to_score[instruction_id] = instruction_data['average_score']
+    num_instructions = sum(list(id_to_counter.values()))
+    weighted_score = 0
+    for id_, count in id_to_counter.items():
+        weighted_score += (id_to_score[id_] * count) / num_instructions
+    return weighted_score
+
+    
+def extract_answer(gen_model, answer):
+    if "gpt-oss" in gen_model.lower():
+        match = re.search(r'<\|channel\|>final<\|message\|>(.*)', answer, re.DOTALL)
+        if match:
+            answer = match.group(1)
+    if "qwen" in gen_model.lower():
+        match = re.search(r'</think>(.*)', answer, re.DOTALL)
+        if match:
+            answer = match.group(1)
+    elif "openthinker" in gen_model.lower():
+        match = re.search(r'<\|end_of_thought\|>(.*)', answer, re.DOTALL)
+        if match:
+            answer = match.group(1)
+    return answer
+    
+
+#instruction_generation_model instead of gen_model
+def save_predictions_execution_accuracy(gen_model, task_name, execution_input_dir, predictions_dir):
+    # load examples
+    with open(f'{execution_input_dir}/./{task_name}.json', encoding='utf-8') as f_task:
+        examples = json.load(f_task)
+
+    safe_gen_model = gen_model.replace("/", "_")
+    with open(f'data/annotations/{task_name}.json', encoding='utf-8') as a_task:
+        annotations = json.load(a_task)
+    ground_truth = annotations["annotations"]
+    print(ground_truth, flush=True)
+    examples = examples["examples"]
+    # load predictions
+    with open(f'{predictions_dir}/./{task_name}_execution.json', encoding='utf-8') \
+            as f_predictions:
+        predictions = json.load(f_predictions)
+
+    # score predictions
+    # for instruction_id, instruction_data in examples.items():
+    #for instruction_id in tqdm(sorted(examples.keys(), key=lambda x: int(x))):
+        # Set seed and sample 5 items
+    random.seed(42)
+    # Sample 5 keys from the dictionary
+    sampled_keys = random.sample(list(examples.keys()), 5)
+    
+    # Sort the sampled keys numerically (same as your original sorting)
+    sampled_keys = sorted(sampled_keys, key=lambda x: int(x))
+
+    predictions_by_instruction = {
+        preds["instruction"]: preds["instruction_outputs"] for preds in predictions.values()
+    }
+    instruction_to_pred_id = {
+        preds["instruction"]: pred_id for pred_id, preds in predictions.items()
+    }
+    
+    for instruction_id in tqdm(sampled_keys):
+        # print("CAME HERE", flush=True)
+        instruction_data = examples[instruction_id]
+        # print(instruction_data, flush=True)
+        d = {}
+        d['instruction'] = instruction_data['input']
+        if d['instruction'] not in predictions_by_instruction:
+            raise ValueError(f"No prediction found for instruction: {d['instruction']}")
+            
+        instruction_outputs = predictions_by_instruction[d['instruction']]
+        pred_id = instruction_to_pred_id[d['instruction']]
+
+        #instruction_outputs = predictions[instruction_id]['instruction_outputs']
+        instruction_scores = []
+        #answers = input_['answers']
+        answers = task_name.replace("_", " ")
+        prediction = extract_answer(gen_model, instruction_outputs)
+        print("Predictions", prediction, flush=True)
+        #task_metric = TASK_TO_METRIC.get(task_name, 'em')
+        task_metric = TASK_TO_METRIC.get(task_name, 'bertscore')
+        if task_metric == 'bertscore':
+            score = get_bertscore(prediction=prediction, ground_truth=ground_truth)
+        elif task_metric == 'f1':
+            score = get_multi_answer_f1(prediction=prediction, answers=answers)
+        elif task_metric == 'es':
+            score = get_multi_answer_exact_set(prediction=prediction, answers=answers)
+        elif task_metric == 'contains':
+            score = get_multi_answer_contains(prediction=prediction, answers=answers)
+        elif task_metric == 'similarity':
+            score = get_sim_score(prediction=prediction, ground_truth=ground_truth)
+        else:  # EM
+            score = get_multi_answer_em(prediction=prediction, answers=answers)
+        predictions[pred_id]['answers'] = answers
+        predictions[pred_id]['score'] = score
+        instruction_scores.append(score)
+        avg_score = sum(instruction_scores) / len(instruction_scores)
+        predictions[pred_id]['average_score'] = avg_score
+        predictions[pred_id]['predicted_instruction'] = prediction
+
+    predictions['weighted_task_score'] = get_weighted_task_score(predictions)
+
+    # save the scored predictions
+    with open(f'{predictions_dir}/./{task_name}_with_scores.json', 'w', encoding='utf-8') \
+            as f_scored_predictions:
+        json.dump(predictions, f_scored_predictions, indent=2, ensure_ascii=False)
+
+
+if __name__ == '__main__':
+    INDUCTION_TASKS_STR = ','.join(INDUCTION_TASKS)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--gen_model", type=str, default='text-davinci-002',
+                        help='The model used to generate the instruction, i.e, the evaluated model.')
+    parser.add_argument('--execution_input_dir', type=str, required=True,
+                        help='Path of the input execution accuracy data.')
+    parser.add_argument('--predictions_dir', type=str, default='', required=True,
+                        help='Path of the execution predictions.')
+    parser.add_argument('--tasks', type=str, default=INDUCTION_TASKS_STR,
+                        help='Tasks for execution accuracy evaluation.')
+    args = parser.parse_args()
+
+    task_list = args.tasks.split(',')
+    for induction_task in task_list:
+        save_predictions_execution_accuracy(gen_model=args.gen_model,
+                                            task_name=induction_task,
+                                            execution_input_dir=args.execution_input_dir,
+                                            predictions_dir=args.predictions_dir)

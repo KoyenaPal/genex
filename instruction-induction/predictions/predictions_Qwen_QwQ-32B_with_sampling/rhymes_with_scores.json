@@ -1,0 +1,43 @@
+{
+  "4": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was",
+    "instruction_outputs": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"Take the first three letters of the input word and rearrange them to form a new word.\"\n\nWait, let me check again. The first example",
+    "answers": "rhymes",
+    "score": 0.62199467420578,
+    "average_score": 0.62199467420578,
+    "predicted_instruction": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"Take the first three letters of the input word and rearrange them to form a new word.\"\n\nWait, let me check again. The first example"
+  },
+  "15": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was",
+    "instruction_outputs": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"Take the input word and remove the first letter, then add 'a' at the end.\" \n\nWait, let me check again. For the",
+    "answers": "rhymes",
+    "score": 0.5755186080932617,
+    "average_score": 0.5755186080932617,
+    "predicted_instruction": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"Take the input word and remove the first letter, then add 'a' at the end.\" \n\nWait, let me check again. For the"
+  },
+  "36": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was",
+    "instruction_outputs": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: Take the input word and remove the first letter, then add \"e\" at the end. Wait, let me check that again.\n\nHmm, looking",
+    "answers": "rhymes",
+    "score": 0.5546064376831055,
+    "average_score": 0.5546064376831055,
+    "predicted_instruction": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: Take the input word and remove the first letter, then add \"e\" at the end. Wait, let me check that again.\n\nHmm, looking"
+  },
+  "82": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was",
+    "instruction_outputs": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"For each input word, find the output word by performing the following steps:\n1. Reverse the input word.\n2. Shift each letter in the",
+    "answers": "rhymes",
+    "score": 0.5951737761497498,
+    "average_score": 0.5951737761497498,
+    "predicted_instruction": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: \"For each input word, find the output word by performing the following steps:\n1. Reverse the input word.\n2. Shift each letter in the"
+  },
+  "95": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was",
+    "instruction_outputs": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: Given a word, remove the first two letters and add them to the end, then add \"a\" in front. \n\nLet me see how this",
+    "answers": "rhymes",
+    "score": 0.5290252566337585,
+    "average_score": 0.5290252566337585,
+    "predicted_instruction": "<|im_start|>user\nI gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was<|im_end|>\n<|im_start|>assistant\n<think>\n The instruction is: Given a word, remove the first two letters and add them to the end, then add \"a\" in front. \n\nLet me see how this"
+  },
+  "weighted_task_score": 0.5752637505531311
+}

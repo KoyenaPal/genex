@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: **Choose the larger of the two animals.**\n\n### Explanation:\nFor each input pair, the output is the animal that is generally larger in size:",
+    "model2_output": "The instruction is: **“Given two animals, output the one that is heavier (i.e., the larger animal).”**<|return|>",
+    "bert_1_to_2": 0.6420251131057739,
+    "bert_2_to_1": 0.6420251131057739,
+    "bert_score": 0.6420251131057739,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: **Choose the larger animal between the two.**\n\n### Explanation:\nIn each input pair, the output consistently selects the **larger animal** based on",
+    "model2_output": "The instruction is: **“Given two animals, output the one that is larger (in size).”**<|return|>",
+    "bert_1_to_2": 0.5984832644462585,
+    "bert_2_to_1": 0.5984832644462585,
+    "bert_score": 0.5984832644462585,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: Choose the wild animal between the two.<|im_end|>",
+    "model2_output": "The instruction is: **“Given two animal names, output the one that is wild (i.e., not domesticated).”**<|return|>",
+    "bert_1_to_2": 0.6684070825576782,
+    "bert_2_to_1": 0.6684070825576782,
+    "bert_score": 0.6684070825576782,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: Choose the larger of the two animals.<|im_end|>",
+    "model2_output": "The instruction is: **“Return the first word if it is a mammal; otherwise return the second word.”**<|return|>",
+    "bert_1_to_2": 0.6241292357444763,
+    "bert_2_to_1": 0.6241292357444763,
+    "bert_score": 0.6241292357444763,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"Choose the wild animal if both are mammals; otherwise, choose the mammal.\"\n\nWait, but maybe the instruction is simply \"Choose the wild animal",
+    "model2_output": "The instruction is: **“Return the first word that is a mammal.”**<|return|>",
+    "bert_1_to_2": 0.47457948327064514,
+    "bert_2_to_1": 0.47457951307296753,
+    "bert_score": 0.47457949817180634,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6015248388051987,
+  "task_name": "larger_animal",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

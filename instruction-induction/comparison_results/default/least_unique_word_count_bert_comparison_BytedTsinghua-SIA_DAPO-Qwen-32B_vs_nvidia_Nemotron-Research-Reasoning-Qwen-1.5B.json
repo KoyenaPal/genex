@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that contain more than one vowel.\n\nLet's test this rule on the given input-output pairs.",
+    "model2_output": "The instruction is: \"Count the number of items that start with a vowel.\" Let's test this.\n\nFirst input: cat, dog, elephant, bird, fish.",
+    "bert_1_to_2": 0.6573437452316284,
+    "bert_2_to_1": 0.6573437452316284,
+    "bert_score": 0.6573437452316284,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "2": {
+    "model1_output": "The instruction is: Count the number of words in the list that have 5 or more letters.\n\nLet's apply this rule to each input and check the outputs.\n\nFor",
+    "model2_output": "The instruction is: \"Count the number of words in the input.\" Let's check:\n\nFirst input: 5 words → output 5.\n\nSecond input: 5",
+    "bert_1_to_2": 0.6332585215568542,
+    "bert_2_to_1": 0.6332585215568542,
+    "bert_score": 0.6332585215568542,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that contain at least one vowel.\n\nLet's apply this rule to all the given input-output pairs",
+    "model2_output": "The instruction is: \"Count the number of items in the list.\" \n\nLet me verify:\n\n1. 5 items → Output 5: Correct.\n\n2.",
+    "bert_1_to_2": 0.5714239478111267,
+    "bert_2_to_1": 0.5714239478111267,
+    "bert_score": 0.5714239478111267,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each set of words, count the total number of syllables across all the words and then take the average number of syllables per word. Round",
+    "model2_output": "The instruction is: \"Count the number of words that are longer than 5 letters.\"\n\nFirst input: complicated (11 letters) → longer than 5: all",
+    "bert_1_to_2": 0.531086802482605,
+    "bert_2_to_1": 0.531086802482605,
+    "bert_score": 0.531086802482605,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each list of words, count the total number of vowels (a, e, i, o, u) across all the words in the list",
+    "model2_output": "The instruction is: \"Count the number of syllables in each word and sum them.\"\n\nLet's test this:\n\n1. refrigerator: 'refrigerator' has",
+    "bert_1_to_2": 0.5581448078155518,
+    "bert_2_to_1": 0.5581448078155518,
+    "bert_score": 0.5581448078155518,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "weighted_task_score": 0.5902515649795532,
+  "task_name": "least_unique_word_count",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that have an even number of letters.\n\nLet's apply this rule to each input and check the",
+    "model2_output": "The instruction is: count the number of positive emotions in the input list.\"\n\nLet's check:\n\nFirst input: [cat, dog, elephant, bird, fish]. Positive",
+    "bert_1_to_2": 0.5814617872238159,
+    "bert_2_to_1": 0.5814617872238159,
+    "bert_score": 0.5814617872238159,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each list of words, count the number of vowels in each word and find the sum of the vowels for the entire list. Then, the output",
+    "model2_output": "The instruction is: \"Count the number of items in the input that start with a vowel.\" Let's verify:\n\n1. Input: apple, banana, orange, grape",
+    "bert_1_to_2": 0.5424597859382629,
+    "bert_2_to_1": 0.5424597859382629,
+    "bert_score": 0.5424597859382629,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Assign a number to the list of items based on their category, where 1 represents clothing items, 2 represents either musical instruments or animals,",
+    "model2_output": "The instruction is: \"Count the number of items in the input set minus 4.\"\n\nLet me verify:\n\n1. 5 -4=1 → Output 1",
+    "bert_1_to_2": 0.49043551087379456,
+    "bert_2_to_1": 0.49043551087379456,
+    "bert_score": 0.49043551087379456,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each list of words, determine the number of words that have the most common number of syllables among the given words in the list.\n\nLet's",
+    "model2_output": "The instruction is: \"Determine the number of terms that are specific or meaningful in the context of the given input.\"\n\nLet me verify:\n\n1. complicated, sophisticated,",
+    "bert_1_to_2": 0.6090569496154785,
+    "bert_2_to_1": 0.6090569496154785,
+    "bert_score": 0.6090569496154785,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that end with the same last letter.\n\nLet's apply this rule to each input and see if",
+    "model2_output": "The instruction is: \"Count the number of items whose names start with a vowel.\"\n\nLet me test this hypothesis.\n\nFirst input: refrigerator, calculator, computer, helicopter,",
+    "bert_1_to_2": 0.633404016494751,
+    "bert_2_to_1": 0.633404016494751,
+    "bert_score": 0.633404016494751,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "weighted_task_score": 0.5713636100292205,
+  "task_name": "most_consonant_return_vowel",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+}

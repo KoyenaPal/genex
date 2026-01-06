@@ -1,0 +1,27 @@
+{
+  "model1_name": "openai_gpt-oss-20b",
+  "model2_name": "open-thoughts_OpenThinker-7B",
+  "task_scores": {
+    "cause_and_effect": 0.6037889242172241,
+    "larger_animal": 0.5672585725784302,
+    "num_to_verbal": 0.6063120126724243,
+    "orthography_starts_with": 0.6069700241088867,
+    "rhymes": 0.568325674533844,
+    "synonyms": 0.6361771821975708,
+    "taxonomy_animal": 0.5731111884117126,
+    "translation_en-fr": 0.6273380577564239,
+    "reverse_from_middle": 0.6017970681190491,
+    "smallest_item_length": 0.5967007279396057,
+    "smallest_even_no_sqrt": 0.6056123971939087,
+    "most_vowel_return_consonant": 0.5872504711151123,
+    "detect_rhyme_and_rewrite": 0.6487152695655822,
+    "rank_by_protein": 0.5988894939422608,
+    "multi_lang_to_english": 0.6402801871299744,
+    "square_of_zodiac_animal": 0.6407336235046387,
+    "alternate_synonym_antonym": 0.593479061126709,
+    "most_consonant_return_vowel": 0.6213056683540344,
+    "least_unique_word_count": 0.6199288487434387,
+    "first_word_alphabetically_return_reverse": 0.6115341424942017
+  },
+  "average_bert_score": 0.6077754297852517
+}

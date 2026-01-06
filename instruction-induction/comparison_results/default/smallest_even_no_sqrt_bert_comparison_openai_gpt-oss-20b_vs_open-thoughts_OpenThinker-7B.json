@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: **“Count how many of the five numbers are perfect squares.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Count the number of times the digit '1' appears across all numbers in the input.**\n\n**Step-by-Step Explanation:**\n\n1.",
+    "bert_1_to_2": 0.6236480474472046,
+    "bert_2_to_1": 0.6236480474472046,
+    "bert_score": 0.6236480474472046,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "2": {
+    "model1_output": "The instruction is: **“Take the first number, add the second number, subtract the third number, divide the result by the fourth number, and then add the fifth",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Sum the digits of the square roots of the perfect squares in the input and subtract the sum of the prime numbers in the input.**\n\n### Step",
+    "bert_1_to_2": 0.5535063147544861,
+    "bert_2_to_1": 0.5535063147544861,
+    "bert_score": 0.5535063147544861,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "5": {
+    "model1_output": "The instruction is: **“Count how many of the five numbers are perfect squares.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Count the number of even numbers in the input list.**\n\n**Step-by-Step Explanation:**\n\n1. **Analyze Each Input-Output",
+    "bert_1_to_2": 0.6091653108596802,
+    "bert_2_to_1": 0.6091653108596802,
+    "bert_score": 0.6091653108596802,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "11": {
+    "model1_output": "The instruction is: **“Count how many of the five numbers are perfect squares.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Count the number of prime factors (with multiplicity) of each number in the input, multiply them together, and then subtract the sum of",
+    "bert_1_to_2": 0.6147592067718506,
+    "bert_2_to_1": 0.6147592067718506,
+    "bert_score": 0.6147592067718506,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "12": {
+    "model1_output": "The instruction is: **“Take the first number, add the second number, subtract the third number, divide the result by the fourth number, and then add the fifth",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Take the square roots of the numbers 144 and 400, sum their integer parts, and subtract the sum of the",
+    "bert_1_to_2": 0.626983106136322,
+    "bert_2_to_1": 0.626983106136322,
+    "bert_score": 0.626983106136322,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6056123971939087,
+  "task_name": "smallest_even_no_sqrt",
+  "model1_name": "openai_gpt-oss-20b",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

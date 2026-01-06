@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Check their current status, their satisfaction, the current weather, their current feelings, and offer assistance.\"\n\nBut to make it precise, let me structure",
+    "model2_output": "The instruction is: **“Translate the input into English.”**<|return|>",
+    "bert_1_to_2": 0.5472152233123779,
+    "bert_2_to_1": 0.5472152233123779,
+    "bert_score": 0.5472152233123779,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Where is the library?\"\n\nSo the final answer is:\n\nWhere is the library?\n\nBut let me confirm by looking at all outputs:\n\nAll outputs start",
+    "model2_output": "The instruction is: **Translate the input sentence into English, keeping the same meaning, and then add a polite closing phrase that matches the tone of the original.**<|return|>",
+    "bert_1_to_2": 0.4567180275917053,
+    "bert_2_to_1": 0.4567180275917053,
+    "bert_score": 0.4567180275917053,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"أحب القراءة في المساء. إنه وقتي المفضل.\"\n\nSo the instruction is: \"I love reading in the evening and",
+    "model2_output": "The instruction is: **“Translate the following sentences into English.”**<|return|>",
+    "bert_1_to_2": 0.4786096215248108,
+    "bert_2_to_1": 0.4786096215248108,
+    "bert_score": 0.4786096215248108,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"I want to tell you about the things I love and enjoy.\"\n\nAlternatively, the instruction could be \"I want to describe the topics I've been",
+    "model2_output": "The instruction is: **“Translate the following sentences into English.”**<|return|>",
+    "bert_1_to_2": 0.5389905571937561,
+    "bert_2_to_1": 0.5389905571937561,
+    "bert_score": 0.5389905571937561,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"I like cooking, reading, and enjoying music and certain dishes.\"\n\nBut to match the exact outputs, let me try to compile the key elements.",
+    "model2_output": "The instruction is: **“Translate the following sentences into English.”**<|return|>",
+    "bert_1_to_2": 0.5607349872589111,
+    "bert_2_to_1": 0.5607349872589111,
+    "bert_score": 0.5607349872589111,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5164536833763123,
+  "task_name": "multi_lang_to_english",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

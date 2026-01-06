@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: **“Given two animals, output the one that is heavier (i.e., the larger animal).”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the second word if one of the inputs is a fish; otherwise, output the first word.\"**\n\n### Step-by-Step Explanation:",
+    "bert_1_to_2": 0.5262405276298523,
+    "bert_2_to_1": 0.5262405276298523,
+    "bert_score": 0.5262405276298523,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: **“Given two animals, output the one that is larger (in size).”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the first input if the second input is not a poodle; otherwise, output the second input.\"**\n\n### Step-by-Step Explanation",
+    "bert_1_to_2": 0.5129618644714355,
+    "bert_2_to_1": 0.5129618644714355,
+    "bert_score": 0.5129618644714355,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is: **“Given two animal names, output the one that is wild (i.e., not domesticated).”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the animal that is not a dog breed; if both are animals, output the one that is not a dog.\"**  \n\n### Explanation",
+    "bert_1_to_2": 0.6006079316139221,
+    "bert_2_to_1": 0.6006079316139221,
+    "bert_score": 0.6006079316139221,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: **“Return the first word if it is a mammal; otherwise return the second word.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the second animal if both are mammals; otherwise, output the first animal.\"**\n\n### Explanation:\n- **Rule Breakdown**:",
+    "bert_1_to_2": 0.6961355209350586,
+    "bert_2_to_1": 0.6961355209350586,
+    "bert_score": 0.6961355209350586,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: **“Return the first word that is a mammal.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Choose the animal that is more dangerous to humans. If both are equally dangerous, select the first one.\"**\n\n### Explanation:\n- **Danger",
+    "bert_1_to_2": 0.5003470182418823,
+    "bert_2_to_1": 0.5003470182418823,
+    "bert_score": 0.5003470182418823,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.5672585725784302,
+  "task_name": "larger_animal",
+  "model1_name": "openai_gpt-oss-20b",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

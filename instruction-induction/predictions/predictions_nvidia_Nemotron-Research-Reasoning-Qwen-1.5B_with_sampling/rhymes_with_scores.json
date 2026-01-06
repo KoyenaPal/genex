@@ -1,0 +1,43 @@
+{
+  "4": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was",
+    "instruction_outputs": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Count punctuation errors\"\n\nLet's break down each input:\n\n- \"stand\" leads to \"demand\": Combining this with the instruction, \"Count",
+    "answers": "rhymes",
+    "score": 0.5109393000602722,
+    "average_score": 0.5109393000602722,
+    "predicted_instruction": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stand\nOutput: demand\n\nInput: pig\nOutput: dig\n\nInput: information\nOutput: reservation\n\nInput: cheese\nOutput: disease\n\nInput: stain\nOutput: main\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Count punctuation errors\"\n\nLet's break down each input:\n\n- \"stand\" leads to \"demand\": Combining this with the instruction, \"Count"
+  },
+  "15": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was",
+    "instruction_outputs": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"From the examples above explain your thought process as I did for my friend,\" but since I provided information about the instruction being something like \"change to",
+    "answers": "rhymes",
+    "score": 0.4457559287548065,
+    "average_score": 0.4457559287548065,
+    "predicted_instruction": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collect\nOutput: connect\n\nInput: invitation\nOutput: station\n\nInput: musician\nOutput: composition\n\nInput: name\nOutput: game\n\nInput: cake\nOutput: shake\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"From the examples above explain your thought process as I did for my friend,\" but since I provided information about the instruction being something like \"change to"
+  },
+  "36": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was",
+    "instruction_outputs": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Write something in the form of this pattern.\"\n\nLet me analyze each input and output pair to figure out the hidden rule.\n\nFirst, looking at Input",
+    "answers": "rhymes",
+    "score": 0.6314589977264404,
+    "average_score": 0.6314589977264404,
+    "predicted_instruction": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cave\nOutput: behave\n\nInput: snow\nOutput: so\n\nInput: relation\nOutput: station\n\nInput: mess\nOutput: less\n\nInput: sick\nOutput: quick\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Write something in the form of this pattern.\"\n\nLet me analyze each input and output pair to figure out the hidden rule.\n\nFirst, looking at Input"
+  },
+  "82": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was",
+    "instruction_outputs": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Determine the word that correctly maps each input phrase to its corresponding output based on a consistent rule.\"\n\nI have been given five input-output pairs:\n\n",
+    "answers": "rhymes",
+    "score": 0.6034620404243469,
+    "average_score": 0.6034620404243469,
+    "predicted_instruction": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: make\nOutput: break\n\nInput: depressed\nOutput: northwest\n\nInput: suggest\nOutput: west\n\nInput: see\nOutput: free\n\nInput: grill\nOutput: spill\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Determine the word that correctly maps each input phrase to its corresponding output based on a consistent rule.\"\n\nI have been given five input-output pairs:\n\n"
+  },
+  "95": {
+    "instruction": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was",
+    "instruction_outputs": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Look for what you don't love.\"\n\nLet me break down each input and output relationship.\n\n1. Input is \"examination\", Output is \"",
+    "answers": "rhymes",
+    "score": 0.5123876333236694,
+    "average_score": 0.5123876333236694,
+    "predicted_instruction": "<｜begin▁of▁sentence｜><｜begin▁of▁sentence｜><｜User｜>I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: examination\nOutput: celebration\n\nInput: so\nOutput: toe\n\nInput: site\nOutput: height\n\nInput: shoe\nOutput: you\n\nInput: situation\nOutput: generation\n\nThe instruction was<｜Assistant｜><think>\n The instruction is: \"Look for what you don't love.\"\n\nLet me break down each input and output relationship.\n\n1. Input is \"examination\", Output is \""
+  },
+  "weighted_task_score": 0.5408007800579071
+}

@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: take the last letter of the input word and use it as the first letter of the output.\n\nLet's test:\n\nInput: stand → last letter is",
+    "model2_output": "The instruction is: **“Take the last three letters of the input word, reverse them, and then add the letter “‑” (dash) to the end.”",
+    "bert_1_to_2": 0.6023844480514526,
+    "bert_2_to_1": 0.6023844480514526,
+    "bert_score": 0.6023844480514526,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: \"To transform the input into its corresponding output by connecting the words through a specific process.\"\n\nAlternatively, it could be a rule like \"connect the words",
+    "model2_output": "The instruction is: **“Take the input word, replace its first letter with the next letter in the alphabet, and then add a ‘t’ at the end.”",
+    "bert_1_to_2": 0.5574347376823425,
+    "bert_2_to_1": 0.5574347376823425,
+    "bert_score": 0.5574347376823425,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Change the first letter to 'b'\". Let's test:\n\n- cave starts with 'c', becomes 'bave'? But output is '",
+    "model2_output": "The instruction is: **“Take the input word, replace its first letter with the first letter of the word **“be”**, then insert an **h** after",
+    "bert_1_to_2": 0.5506018400192261,
+    "bert_2_to_1": 0.5506018400192261,
+    "bert_score": 0.5506018400192261,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: To determine the result of each input word leading to the given output word, considering the examples provided. The instruction could be related to actions or processes leading",
+    "model2_output": "The instruction is: **“Give the antonym (opposite) of the word that is supplied.”**<|return|>",
+    "bert_1_to_2": 0.5599716305732727,
+    "bert_2_to_1": 0.5599716305732727,
+    "bert_score": 0.5599716305732727,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"Transform the input into a word or phrase related to an event or process.\"\n\nThe instruction is likely a set of transformation rules based on the given input",
+    "model2_output": "The instruction is: **“Take the last part of the word that follows the first consonant and add it to the end of the word “cele” (or “",
+    "bert_1_to_2": 0.5143452882766724,
+    "bert_2_to_1": 0.5143452882766724,
+    "bert_score": 0.5143452882766724,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5569475889205933,
+  "task_name": "rhymes",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Count the number of words in the list that are mammals.\" But then the second input would have zero, but output is 1. So that",
+    "model2_output": "The instruction is: **“Count how many of the words are animals (or animal‑like) versus non‑animals.”**  \nThe friend’s outputs are the number",
+    "bert_1_to_2": 0.5788314342498779,
+    "bert_2_to_1": 0.5788314342498779,
+    "bert_score": 0.5788314342498779,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Count the number of items that are not the first letter in the alphabet.\" But that would be 4, but output is 1. Hmm",
+    "model2_output": "The instruction is: **“Count how many of the words in each list are spelled with an even number of letters.”**<|return|>",
+    "bert_1_to_2": 0.6007375717163086,
+    "bert_2_to_1": 0.6007375717163086,
+    "bert_score": 0.6007375717163086,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Count the number of items in the list that are polygons.\" \n\nWait, let me check again. For the fourth input (shapes), the output",
+    "model2_output": "The instruction is: **“Count how many of the words in each list are spelled with an even number of letters.”**<|return|>",
+    "bert_1_to_2": 0.619093656539917,
+    "bert_2_to_1": 0.619093656539917,
+    "bert_score": 0.619093656539917,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"Count the number of words in the input that end with the suffix '-logy'.\" Wait, but in the fourth input, all the words end",
+    "model2_output": "The instruction is: **“Count how many of the words in each list contain the letter **‘e’**.”**<|return|>",
+    "bert_1_to_2": 0.6611353158950806,
+    "bert_2_to_1": 0.6611353158950806,
+    "bert_score": 0.6611353158950806,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each input list of words, count how many of them end with the letter 'r'. \n\nWait, let me check the third input again.",
+    "model2_output": "The instruction is: **“Count how many of the words contain the letter **‘e’**.”**<|return|>",
+    "bert_1_to_2": 0.688660740852356,
+    "bert_2_to_1": 0.688660740852356,
+    "bert_score": 0.688660740852356,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.629691743850708,
+  "task_name": "most_consonant_return_vowel",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

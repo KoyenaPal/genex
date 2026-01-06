@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: **\"For each input, list all the words that start with the letter in the brackets, in order, separated by spaces.\"**\n\n### Explanation:",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"For each input, list all words that start with the letter corresponding to the label.\"**  \n\n### Explanation:\n- Each input contains a label",
+    "bert_1_to_2": 0.7356328368186951,
+    "bert_2_to_1": 0.7356328368186951,
+    "bert_score": 0.7356328368186951,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: **\"For each input, output the word that starts with the letter in the brackets.\"**\n\n### Explanation:\n- The friend was instructed to identify the",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Select the third word from each input**. \n\n### Analysis:\n- **Input 1**: \"Fiona must not eat the sauteed",
+    "bert_1_to_2": 0.5627622008323669,
+    "bert_2_to_1": 0.5627622008323669,
+    "bert_score": 0.5627622008323669,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is:  \n**\"For each input, extract all words that start with the letter in the brackets (case-insensitive), list them in the order they appear",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Extract all words in the sentence that contain the underlined letter (the bracketed character) and concatenate them in order**. \n\n### Step-by",
+    "bert_1_to_2": 0.7076790928840637,
+    "bert_2_to_1": 0.7076790928840637,
+    "bert_score": 0.7076790928840637,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: Extract the word starting with the letter in the brackets.<|im_end|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Extract the direct object of the main verb**. \n\n### Analysis:\n- **Input 1**: \"I am anxious for you to arrive on",
+    "bert_1_to_2": 0.6220950484275818,
+    "bert_2_to_1": 0.6220950484275818,
+    "bert_score": 0.6220950484275818,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: For each input sentence with a tag [letter], extract all words starting with that letter (case-insensitive) and list them in order separated by spaces",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Remove all letters except those that are vowels**. \n\n### Step-by-Step Explanation:\n1. **Identify Vowels**: The instruction",
+    "bert_1_to_2": 0.4902288615703583,
+    "bert_2_to_1": 0.4902288615703583,
+    "bert_score": 0.4902288615703583,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6236796081066132,
+  "task_name": "orthography_starts_with",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

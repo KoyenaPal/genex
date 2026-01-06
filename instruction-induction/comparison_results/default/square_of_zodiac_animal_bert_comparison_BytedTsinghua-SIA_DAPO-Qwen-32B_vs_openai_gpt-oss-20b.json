@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each input list of words, the output is the square of the number of syllables in the first word of the list.\n\nLet's verify this",
+    "model2_output": "The instruction is: **“Count how many letters in the first word are also present in the second word, then square that number.”**<|return|>",
+    "bert_1_to_2": 0.6496064066886902,
+    "bert_2_to_1": 0.6496064066886902,
+    "bert_score": 0.6496064066886902,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each set of words, calculate the total number of letters across all words in the set. Then find the number \\( n \\) such that \\(",
+    "model2_output": "The instruction is: **“Count the total number of letters in all the words, then square that number.”**<|return|>",
+    "bert_1_to_2": 0.7179995775222778,
+    "bert_2_to_1": 0.7179995775222778,
+    "bert_score": 0.7179995775222778,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each set of words, count the number of words that have an odd number of letters. Then, square the sum of this count plus some constant",
+    "model2_output": "The instruction is: **“Take the five words, find the one that is a *homophone* of a number, and output that number squared.”**<|return|>",
+    "bert_1_to_2": 0.6329382658004761,
+    "bert_2_to_1": 0.6329382658004761,
+    "bert_score": 0.6329382658004761,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each set of words, calculate the sum of the number of letters in each word, and then find the closest perfect square to this sum. The",
+    "model2_output": "The instruction is: **“Take the first word of each line, count its letters, square that number, and that is the output.”**<|return|>",
+    "bert_1_to_2": 0.6941086053848267,
+    "bert_2_to_1": 0.6941086053848267,
+    "bert_score": 0.6941086053848267,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each set of words, calculate the sum of the number of letters in each word, and then find the square of a number that is related to",
+    "model2_output": "The instruction is: **“Take the five words, find the one that is a *homophone* of a number, and output that number squared.”**<|return|>",
+    "bert_1_to_2": 0.6580453515052795,
+    "bert_2_to_1": 0.6580453515052795,
+    "bert_score": 0.6580453515052795,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6705396413803101,
+  "task_name": "square_of_zodiac_animal",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

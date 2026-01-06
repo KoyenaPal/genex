@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: Transform the subject's size, speed, gender, and state, and describe the opposite or altered characteristics or states.\n\nWait, perhaps the instruction is about",
+    "model2_output": "The instruction is: **“Rewrite each sentence by changing every word to its opposite (antonym) or a word with the opposite meaning, and also swap the subject and",
+    "bert_1_to_2": 0.5520679354667664,
+    "bert_2_to_1": 0.5520679354667664,
+    "bert_score": 0.5520679354667664,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"When something is green, it becomes red; when something is expensive, it becomes cheap; when something loves literature, it hates it; when something",
+    "model2_output": "The instruction is: **“Rewrite each sentence by replacing every word with its antonym (i.e., produce the opposite sentence).”**<|return|>",
+    "bert_1_to_2": 0.43713241815567017,
+    "bert_2_to_1": 0.43713241815567017,
+    "bert_score": 0.43713241815567017,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Change the subject and verb to describe the opposite action or time.\"\n\nBut let me try to find a single instruction that fits all.\n\nWait, perhaps",
+    "model2_output": "The instruction is: **“Rewrite each sentence by replacing every word with its opposite (antonym) or a word that conveys the opposite meaning.”**<|return|>",
+    "bert_1_to_2": 0.5557973384857178,
+    "bert_2_to_1": 0.5557973384857178,
+    "bert_score": 0.5557973384857178,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"Change the subject's state and action to their opposites.\" So the original instruction was to invert the states and actions in the given input-output pairs",
+    "model2_output": "The instruction is: **“Replace each word with its opposite (antonym) and change the noun to a related but opposite noun.”**<|return|>",
+    "bert_1_to_2": 0.5724632143974304,
+    "bert_2_to_1": 0.5724632143974304,
+    "bert_score": 0.5724632143974304,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"Evaluate the opposite effect or context when considering the given situation.\"\n\n**Step-by-Step Explanation:**\n\n1. **Identify the Pattern:** Look",
+    "model2_output": "The instruction is: **“Rewrite each sentence so that every word is replaced by its opposite (antonym) or a word that conveys the opposite meaning, and also change",
+    "bert_1_to_2": 0.5259615778923035,
+    "bert_2_to_1": 0.5259615778923035,
+    "bert_score": 0.5259615778923035,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5286844968795776,
+  "task_name": "alternate_synonym_antonym",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

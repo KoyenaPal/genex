@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each set of words, count the number of vowels in all the words combined and provide the output as the total number of vowels.\n\nLet's apply",
+    "model2_output": "The instruction is: **“Count the number of letters that are shared by all the words in the list.”**  \n(For each list, find the letters that appear",
+    "bert_1_to_2": 0.6531658172607422,
+    "bert_2_to_1": 0.6531658172607422,
+    "bert_score": 0.6531658172607422,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that have exactly one syllable.\n\nLet's apply this rule to each input and check if it",
+    "model2_output": "The instruction is: **“Count how many of the words in each list are spelled with an even number of letters.”**<|return|>",
+    "bert_1_to_2": 0.6882454752922058,
+    "bert_2_to_1": 0.6882454752922058,
+    "bert_score": 0.6882454752922058,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that have the minimum number of syllables and subtract 1 from this count.\n\nLet's apply",
+    "model2_output": "The instruction is: **“Count how many of the five words are *plural* in form (i.e., end with an ‘s’ or are otherwise plural).",
+    "bert_1_to_2": 0.564052402973175,
+    "bert_2_to_1": 0.564052402973175,
+    "bert_score": 0.564052402973175,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that have the maximum number of letters minus one.\n\nLet's test this rule on the given input",
+    "model2_output": "The instruction is: **“Count how many of the words are also the names of musical notes (A‑G).”**<|return|>",
+    "bert_1_to_2": 0.6125012040138245,
+    "bert_2_to_1": 0.6125012040138245,
+    "bert_score": 0.6125012040138245,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that have an even number of letters.\n\nLet's apply this rule to each input and check if",
+    "model2_output": "The instruction is: **“Count how many of the words have a letter that appears exactly twice in the word.”**<|return|>",
+    "bert_1_to_2": 0.6536283493041992,
+    "bert_2_to_1": 0.6536283493041992,
+    "bert_score": 0.6536283493041992,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6343186497688293,
+  "task_name": "smallest_item_length",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

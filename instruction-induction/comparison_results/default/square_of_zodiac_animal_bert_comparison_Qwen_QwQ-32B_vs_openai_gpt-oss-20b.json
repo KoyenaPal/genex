@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: **\"Determine the position of the first animal in the list in the Chinese zodiac, then square that number to get the output.\"**\n\n###",
+    "model2_output": "The instruction is: **“Count how many letters in the first word are also present in the second word, then square that number.”**<|return|>",
+    "bert_1_to_2": 0.6614426970481873,
+    "bert_2_to_1": 0.6614426970481873,
+    "bert_score": 0.6614426970481873,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each input list of five words, compute the sum of the number of letters in each word, then take the square root of that sum, and",
+    "model2_output": "The instruction is: **“Count the total number of letters in all the words, then square that number.”**<|return|>",
+    "bert_1_to_2": 0.7455182671546936,
+    "bert_2_to_1": 0.7455182671546936,
+    "bert_score": 0.7455182671546936,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each input list of five words, identify the animal in the list, count the number of letters in that animal's name, then square that number",
+    "model2_output": "The instruction is: **“Take the five words, find the one that is a *homophone* of a number, and output that number squared.”**<|return|>",
+    "bert_1_to_2": 0.670043408870697,
+    "bert_2_to_1": 0.670043408870697,
+    "bert_score": 0.670043408870697,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\" The outputs are",
+    "model2_output": "The instruction is: **“Take the first word of each line, count its letters, square that number, and that is the output.”**<|return|>",
+    "bert_1_to_2": 0.5345629453659058,
+    "bert_2_to_1": 0.5345629453659058,
+    "bert_score": 0.5345629453659058,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each input list of five words, count the number of letters in each word, then sum those counts, and the output is the square of that",
+    "model2_output": "The instruction is: **“Take the five words, find the one that is a *homophone* of a number, and output that number squared.”**<|return|>",
+    "bert_1_to_2": 0.643666684627533,
+    "bert_2_to_1": 0.643666684627533,
+    "bert_score": 0.643666684627533,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6510468006134034,
+  "task_name": "square_of_zodiac_animal",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

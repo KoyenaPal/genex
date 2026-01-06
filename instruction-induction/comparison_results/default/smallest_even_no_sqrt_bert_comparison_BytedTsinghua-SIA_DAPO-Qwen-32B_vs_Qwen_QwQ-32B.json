@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each input list of numbers, find the number of elements that are perfect squares.\n\nLet's check this approach for each input-output pair.\n\n1.",
+    "model2_output": "The instruction is: For each input of five numbers, output the number of pairs of numbers where one is a multiple of the other.\n\nWait, let me test this hypothesis",
+    "bert_1_to_2": 0.7037946581840515,
+    "bert_2_to_1": 0.7037946581840515,
+    "bert_score": 0.7037946581840515,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "2": {
+    "model1_output": "The instruction is: For the given input list of five numbers \\(a, b, c, d, e\\), the output is calculated as the minimum of the square",
+    "model2_output": "The instruction is: Take the smallest square root among all the numbers in the input. Let's check second input's square roots: 3,6,20,",
+    "bert_1_to_2": 0.5790660977363586,
+    "bert_2_to_1": 0.5790660977363586,
+    "bert_score": 0.5790660977363586,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each input list of five numbers, identify the perfect squares within the list. Then, sum the digits of these perfect squares and count the number of",
+    "model2_output": "The instruction is: For each input list of five numbers, the output is the count of numbers in the list that are perfect squares. \n\nWait, but in the second",
+    "bert_1_to_2": 0.7045390009880066,
+    "bert_2_to_1": 0.7045390009880066,
+    "bert_score": 0.7045390009880066,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each set of five numbers, count the number of perfect squares within the set and then sum the square roots of those perfect squares. The output is",
+    "model2_output": "The instruction is: \"I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs. Here are the",
+    "bert_1_to_2": 0.5812654495239258,
+    "bert_2_to_1": 0.5812654495239258,
+    "bert_score": 0.5812654495239258,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each input list of five numbers \\([a, b, c, d, e]\\), the output is calculated as the sum of the square",
+    "model2_output": "The instruction is: For each input, find the first perfect square in the list, take its square root, and that's the output.\n\nFirst input: first square is",
+    "bert_1_to_2": 0.5781089663505554,
+    "bert_2_to_1": 0.5781089663505554,
+    "bert_score": 0.5781089663505554,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.6293548345565796,
+  "task_name": "smallest_even_no_sqrt",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "Qwen_QwQ-32B"
+}

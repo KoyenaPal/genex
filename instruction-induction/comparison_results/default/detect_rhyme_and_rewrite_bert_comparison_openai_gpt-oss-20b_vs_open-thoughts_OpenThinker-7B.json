@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: **“Rewrite each line of the input in a completely different style, changing the subject, tone, and imagery while keeping the same number of words per",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Rewrite the given poem using a similar structure (four lines, each with a subject, verb, and object/descriptor) but replace",
+    "bert_1_to_2": 0.6907854080200195,
+    "bert_2_to_1": 0.6907854080200195,
+    "bert_score": 0.6907854080200195,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "2": {
+    "model1_output": "The instruction is: **“Replace every word with a word that is a rhyme or near‑rhyme of the original, keeping the same number of words and the",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Replace each element with its corresponding counterpart in a complementary scenario (e.g., day to night, summer to winter, outdoors to indoors), using",
+    "bert_1_to_2": 0.5806454420089722,
+    "bert_2_to_1": 0.5806454420089722,
+    "bert_score": 0.5806454420089722,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "5": {
+    "model1_output": "The instruction is: **Rewrite each input poem as a new poem that keeps the same number of lines, the same meter and rhyme pattern, but changes the subject (the",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Transform each input into a poetic statement by replacing the subject (animal/human) with a different animal or natural feature, altering the location,",
+    "bert_1_to_2": 0.6656312346458435,
+    "bert_2_to_1": 0.6656312346458435,
+    "bert_score": 0.6656312346458435,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "11": {
+    "model1_output": "The instruction is: **“Rewrite each input poem as a new poem about a different object that shares the same theme, keeping the same rhyme scheme, meter and overall feel",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Transform the subject into a different natural element, altering the medium (e.g., air to water, land to sea), adjusting the action,",
+    "bert_1_to_2": 0.5968120694160461,
+    "bert_2_to_1": 0.5968120694160461,
+    "bert_score": 0.5968120694160461,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "12": {
+    "model1_output": "The instruction is: **“Rewrite each input as a poem about a different subject, keeping the same rhyme scheme, meter and overall structure.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is:  \n**\"For each input, write a poem that continues the sentence structure by replacing the subject with a different one, often contrasting in terms of time",
+    "bert_1_to_2": 0.70970219373703,
+    "bert_2_to_1": 0.70970219373703,
+    "bert_score": 0.70970219373703,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6487152695655822,
+  "task_name": "detect_rhyme_and_rewrite",
+  "model1_name": "openai_gpt-oss-20b",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

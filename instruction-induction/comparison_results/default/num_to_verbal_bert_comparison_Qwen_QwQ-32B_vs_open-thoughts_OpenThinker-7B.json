@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Convert the number into its British English word form, using commas to separate thousands and hundreds, and include 'and' where appropriate.\"\n\nTo elaborate,",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands and the remaining three digits, then format the output using \"thousand\", \"hundred and",
+    "bert_1_to_2": 0.6054269075393677,
+    "bert_2_to_1": 0.6054269075393677,
+    "bert_score": 0.6054269075393677,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: **\"Write the number in words using British English conventions, including commas after thousands, 'and' before the last two digits when applicable, and hy",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Convert each number into words by splitting into thousands, hundreds, tens, and ones. Use 'thousand' for the thousands part, '",
+    "bert_1_to_2": 0.5958005785942078,
+    "bert_2_to_1": 0.5958005785942078,
+    "bert_score": 0.5958005785942078,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Convert the number into its written form in British English, using commas to separate thousands from hundreds, including 'and' after the hundreds place when there",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into its English word equivalent by breaking it into thousands, hundreds, tens, and ones. Use \"thousand\" for numbers ≥",
+    "bert_1_to_2": 0.6311197280883789,
+    "bert_2_to_1": 0.6311197280883789,
+    "bert_score": 0.6311197280883789,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: **\"Convert the number into its British English word form, using 'and' after thousand and hundred where appropriate, commas to separate thousands from hundreds,",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands, hundreds, and the remainder (tens and ones), then combine them using \"thousand",
+    "bert_1_to_2": 0.6092267036437988,
+    "bert_2_to_1": 0.6092267036437988,
+    "bert_score": 0.6092267036437988,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"Convert the number into its written form in British English, including 'and' where appropriate.\" Here's the detailed breakdown:\n\n1. **Thousands Place",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands and the remaining part, then express each component (thousands, hundreds, tens, units)",
+    "bert_1_to_2": 0.5805532336235046,
+    "bert_2_to_1": 0.5805531740188599,
+    "bert_score": 0.5805532038211823,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6044254243373871,
+  "task_name": "num_to_verbal",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

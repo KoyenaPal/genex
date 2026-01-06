@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Output the first given sentence in each pair.\n\nTherefore, the instruction is: \"Output the first input sentence provided.\"\n\nSo summarizing, the instruction is",
+    "model2_output": "The instruction is: pick the sentence that is the reason for the other. So in the fifth case, the reason is that he couldn't hear, so he turned down",
+    "bert_1_to_2": 0.5090851783752441,
+    "bert_2_to_1": 0.5090851783752441,
+    "bert_score": 0.5090851783752441,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "15": {
+    "model1_output": "The instruction is: Given two sentences, the first is a statement, and the second is its consequence.\n\nThe instruction is: \"Given two sentences, the first is a",
+    "model2_output": "The instruction is: **\"Determine which sentence is the cause of the other and output the causal sentence.\"**\n\n### Explanation:\nFor each pair of sentences, the task",
+    "bert_1_to_2": 0.5050943493843079,
+    "bert_2_to_1": 0.5050943493843079,
+    "bert_score": 0.5050943493843079,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "36": {
+    "model1_output": "The instruction is: Output the first input sentence provided.\n\nThe instruction is: Output the first given sentence.\n\n**Final Answer**\nThe instruction is to output the first input sentence",
+    "model2_output": "The instruction is: **\"Identify the sentence that serves as the cause leading to the effect described in the other sentence.\"**\n\n### Explanation:\nFor each input pair,",
+    "bert_1_to_2": 0.509304940700531,
+    "bert_2_to_1": 0.509304940700531,
+    "bert_score": 0.509304940700531,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"If the first input is about a family event, the output is the corresponding consequence. If it's about a promotion, output the object event.",
+    "model2_output": "The instruction is: **\"Choose the sentence that is the cause or reason for the other sentence.\"**\n\n### Explanation:\nIn each input pair, one sentence describes a **",
+    "bert_1_to_2": 0.4931856691837311,
+    "bert_2_to_1": 0.4931856691837311,
+    "bert_score": 0.4931856691837311,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "95": {
+    "model1_output": "The instruction is: swap the two inputs. So when given Input 1 and 2, the output is Input2 and then Input1 respectively.\n\nWait let me re",
+    "model2_output": "The instruction is: **\"Choose the sentence that explains why the other event occurred.\"**  \n\n### Explanation:  \nFor each pair of sentences, the output is the sentence",
+    "bert_1_to_2": 0.4960734248161316,
+    "bert_2_to_1": 0.4960734248161316,
+    "bert_score": 0.4960734248161316,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.5025487124919892,
+  "task_name": "cause_and_effect",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "Qwen_QwQ-32B"
+}

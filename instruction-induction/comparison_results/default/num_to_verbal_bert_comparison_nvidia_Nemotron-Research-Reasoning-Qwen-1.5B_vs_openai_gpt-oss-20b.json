@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using appropriate scale words such as thousand, hundred, etc.\n\nThe instruction is to convert the numbers into their",
+    "model2_output": "The instruction is:  \n\n> **“Write the given integer in words (British English), using commas to separate the thousands, and insert the word “and” before the",
+    "bert_1_to_2": 0.5672184824943542,
+    "bert_2_to_1": 0.5672184824943542,
+    "bert_score": 0.5672184824943542,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: Convert each number into its word form by breaking it into thousands, hundreds, tens, and ones.\n\n**Final Answer**\nThe instruction was to convert each",
+    "model2_output": "The instruction is:  \n\n> **“Write the number in words, using commas to separate the thousands and hundreds, and insert the word “and” before the last part",
+    "bert_1_to_2": 0.6116791367530823,
+    "bert_2_to_1": 0.6116791367530823,
+    "bert_score": 0.6116791367530823,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: Convert numbers into their word equivalents by breaking them into thousands, hundreds, tens, and units, using \"thousand\", \"hundred\", and \"",
+    "model2_output": "The instruction is:  \n\n> **“Write the number in words, using British English conventions.  \n>  Use commas after the thousands place, and insert the word “",
+    "bert_1_to_2": 0.5146211385726929,
+    "bert_2_to_1": 0.5146211385726929,
+    "bert_score": 0.5146211385726929,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: Convert numbers into their word representation using the standard British number system, including \"and\" after the hundreds.\n\n**Step-by-Step Explanation:**\n\n1",
+    "model2_output": "The instruction is: **“Spell the number out in words (British English style), putting a comma between the thousands and the hundreds only when the hundreds digit is non‑",
+    "bert_1_to_2": 0.6137744784355164,
+    "bert_2_to_1": 0.6137744784355164,
+    "bert_score": 0.6137744784355164,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using the specified breakdown into thousands, hundreds, tens, and units with appropriate scale words and \"and.\"",
+    "model2_output": "The instruction is: **“Spell the number out in words, using British‑English style.  \nUse commas to separate the thousands and hundreds, hyphens between the",
+    "bert_1_to_2": 0.6202823519706726,
+    "bert_2_to_1": 0.6202822923660278,
+    "bert_score": 0.6202823221683502,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5855151116847992,
+  "task_name": "num_to_verbal",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

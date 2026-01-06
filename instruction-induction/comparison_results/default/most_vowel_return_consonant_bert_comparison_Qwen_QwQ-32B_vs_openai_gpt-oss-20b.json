@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each input list of five words, count the number of words that are not the first word. But that would be 4 each time, since",
+    "model2_output": "The instruction is: **“Count how many of the five words are nouns.”**<|return|>",
+    "bert_1_to_2": 0.649590015411377,
+    "bert_2_to_1": 0.649590015411377,
+    "bert_score": 0.649590015411377,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each input list of five words, count the number of words that contain the letter 'a' (case-insensitive). Let's check first input",
+    "model2_output": "The instruction is: **“Count how many of the words in each list are *not* nouns.”**  \nIn the first four lists every word is a noun,",
+    "bert_1_to_2": 0.5849791765213013,
+    "bert_2_to_1": 0.5849791765213013,
+    "bert_score": 0.5849791765213013,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each input list of five words, count the number of words that contain the letter 'a' or 'e'. Let me check first input:",
+    "model2_output": "The instruction is: **“Count the total number of letters that appear in the words **`a`, `e`, `i`, `o`, `u`**",
+    "bert_1_to_2": 0.620638370513916,
+    "bert_2_to_1": 0.620638370513916,
+    "bert_score": 0.620638370513916,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each input list of five words, calculate the sum of the number of letters in each word, then sum the digits of that total. \n\nLet",
+    "model2_output": "The instruction is: **“Count how many of the five words are *not* nouns.”**  \nIn each list, only one word is a noun (the others",
+    "bert_1_to_2": 0.5663096308708191,
+    "bert_2_to_1": 0.5663096308708191,
+    "bert_score": 0.5663096308708191,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\"\n\nWait, maybe",
+    "model2_output": "The instruction is: **“Count how many of the five words contain the letter **‘e’**.”**<|return|>",
+    "bert_1_to_2": 0.5293357372283936,
+    "bert_2_to_1": 0.5293357372283936,
+    "bert_score": 0.5293357372283936,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5901705861091614,
+  "task_name": "most_vowel_return_consonant",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

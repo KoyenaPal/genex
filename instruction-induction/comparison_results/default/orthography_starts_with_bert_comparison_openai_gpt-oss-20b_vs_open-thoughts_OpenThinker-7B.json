@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: **“Return every word in the sentence that begins with the letter shown in brackets.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"For each input, list all words that start with the letter corresponding to the label.\"**  \n\n### Explanation:\n- Each input contains a label",
+    "bert_1_to_2": 0.612476110458374,
+    "bert_2_to_1": 0.612476110458374,
+    "bert_score": 0.612476110458374,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: **“From each sentence, pick the shortest word that contains the letter shown in brackets.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Select the third word from each input**. \n\n### Analysis:\n- **Input 1**: \"Fiona must not eat the sauteed",
+    "bert_1_to_2": 0.593630850315094,
+    "bert_2_to_1": 0.593630850315094,
+    "bert_score": 0.593630850315094,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is: **“List every word in the sentence that begins with the letter shown in brackets.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Extract all words in the sentence that contain the underlined letter (the bracketed character) and concatenate them in order**. \n\n### Step-by",
+    "bert_1_to_2": 0.7285447120666504,
+    "bert_2_to_1": 0.7285447120666504,
+    "bert_score": 0.7285447120666504,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: **“Return the word(s) in the sentence that start with the letter given in brackets.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Extract the direct object of the main verb**. \n\n### Analysis:\n- **Input 1**: \"I am anxious for you to arrive on",
+    "bert_1_to_2": 0.5828663110733032,
+    "bert_2_to_1": 0.5828663110733032,
+    "bert_score": 0.5828663110733032,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: **“From each sentence, list every word that begins with the letter shown in brackets.”**<|return|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Remove all letters except those that are vowels**. \n\n### Step-by-Step Explanation:\n1. **Identify Vowels**: The instruction",
+    "bert_1_to_2": 0.517332136631012,
+    "bert_2_to_1": 0.517332136631012,
+    "bert_score": 0.517332136631012,
+    "model1_name": "openai_gpt-oss-20b",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6069700241088867,
+  "task_name": "orthography_starts_with",
+  "model1_name": "openai_gpt-oss-20b",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nFor the new input: \"system\"\n\nThe output is: système<|endoftext|>",
+    "model2_output": "The instruction is: **Translate the English word into French.**\n\nHere's the breakdown:\n\n1. **restaurant** → \"restaurant\" (same in French).\n2.",
+    "bert_1_to_2": 0.6692255735397339,
+    "bert_2_to_1": 0.6692255735397339,
+    "bert_score": 0.6692255735397339,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "15": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nLet's apply this instruction to the given input-output pairs to confirm:\n\n1. Input: monarchy\n   Output",
+    "model2_output": "The instruction is: **Translate the English word into French.**\n\nHere's the step-by-step explanation:\n\n1. **Identify the Pattern**:  \n   Each input is",
+    "bert_1_to_2": 0.6612598299980164,
+    "bert_2_to_1": 0.6612598299980164,
+    "bert_score": 0.6612598299980164,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "36": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nFor the input \"pen,\" the correct French translation is \"stylo\" (if referring to a writing instrument",
+    "model2_output": "The instruction is: \"For each input word, provide its French translation, but if the word has a homonym with a different meaning, use the translation of the less",
+    "bert_1_to_2": 0.5511887669563293,
+    "bert_2_to_1": 0.5511887669563293,
+    "bert_score": 0.5511887669563293,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "82": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nGiven the new input: \"friend\"\n\nThe output is: ami<|endoftext|>",
+    "model2_output": "The instruction is: \"Translate the given English word into French. If the word is the same in both English and French, leave it unchanged.\"\n\n**Step-by-Step",
+    "bert_1_to_2": 0.5916635990142822,
+    "bert_2_to_1": 0.5916635990142822,
+    "bert_score": 0.5916635990142822,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "95": {
+    "model1_output": "The instruction is: Translate the given English word into French, considering context-specific translations where applicable.\n\nFor the input \"bottle,\" the French translation is \"bouteille",
+    "model2_output": "The instruction is: **Translate the English word into French.**\n\nEach input is an English word, and the corresponding output is its French translation. Here's the breakdown:",
+    "bert_1_to_2": 0.6147016286849976,
+    "bert_2_to_1": 0.6147016286849976,
+    "bert_score": 0.6147016286849976,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.6176078796386719,
+  "task_name": "translation_en-fr",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "Qwen_QwQ-32B"
+}

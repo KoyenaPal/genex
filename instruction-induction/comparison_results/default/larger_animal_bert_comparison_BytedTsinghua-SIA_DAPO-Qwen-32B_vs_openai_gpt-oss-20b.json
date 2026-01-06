@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Choose the item that is not a mammal if there is one in the pair. If both items are mammals or both are non-mammals",
+    "model2_output": "The instruction is: **“Given two animals, output the one that is heavier (i.e., the larger animal).”**<|return|>",
+    "bert_1_to_2": 0.5362527966499329,
+    "bert_2_to_1": 0.5362527966499329,
+    "bert_score": 0.5362527966499329,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: \"Choose the animal that is not a dog breed or a hybrid dog breed. If both are not dog breeds, choose the more exotic or larger animal",
+    "model2_output": "The instruction is: **“Given two animals, output the one that is larger (in size).”**<|return|>",
+    "bert_1_to_2": 0.5783360004425049,
+    "bert_2_to_1": 0.5783360004425049,
+    "bert_score": 0.5783360004425049,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Select the larger animal from the given pair.\"<|endoftext|>",
+    "model2_output": "The instruction is: **“Given two animal names, output the one that is wild (i.e., not domesticated).”**<|return|>",
+    "bert_1_to_2": 0.7040811777114868,
+    "bert_2_to_1": 0.7040811777114868,
+    "bert_score": 0.7040811777114868,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"Choose the animal that is higher in the hierarchy: bird > mammal > fish > other. If both animals belong to the same category, choose",
+    "model2_output": "The instruction is: **“Return the first word if it is a mammal; otherwise return the second word.”**<|return|>",
+    "bert_1_to_2": 0.5450466871261597,
+    "bert_2_to_1": 0.5450466871261597,
+    "bert_score": 0.5450466871261597,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"From the given pair of animals, select the one that is a mammal. If both are mammals, choose the first one listed. If neither",
+    "model2_output": "The instruction is: **“Return the first word that is a mammal.”**<|return|>",
+    "bert_1_to_2": 0.5142887234687805,
+    "bert_2_to_1": 0.5142887234687805,
+    "bert_score": 0.5142887234687805,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5756010770797729,
+  "task_name": "larger_animal",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

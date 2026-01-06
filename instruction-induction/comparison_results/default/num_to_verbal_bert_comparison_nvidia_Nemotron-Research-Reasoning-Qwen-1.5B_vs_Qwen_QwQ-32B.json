@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using appropriate scale words such as thousand, hundred, etc.\n\nThe instruction is to convert the numbers into their",
+    "model2_output": "The instruction is: \"Convert the number into its British English word form, using commas to separate thousands and hundreds, and include 'and' where appropriate.\"\n\nTo elaborate,",
+    "bert_1_to_2": 0.6320874094963074,
+    "bert_2_to_1": 0.6320874094963074,
+    "bert_score": 0.6320874094963074,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "15": {
+    "model1_output": "The instruction is: Convert each number into its word form by breaking it into thousands, hundreds, tens, and ones.\n\n**Final Answer**\nThe instruction was to convert each",
+    "model2_output": "The instruction is: **\"Write the number in words using British English conventions, including commas after thousands, 'and' before the last two digits when applicable, and hy",
+    "bert_1_to_2": 0.553649365901947,
+    "bert_2_to_1": 0.553649365901947,
+    "bert_score": 0.553649365901947,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "36": {
+    "model1_output": "The instruction is: Convert numbers into their word equivalents by breaking them into thousands, hundreds, tens, and units, using \"thousand\", \"hundred\", and \"",
+    "model2_output": "The instruction is: \"Convert the number into its written form in British English, using commas to separate thousands from hundreds, including 'and' after the hundreds place when there",
+    "bert_1_to_2": 0.600342869758606,
+    "bert_2_to_1": 0.600342869758606,
+    "bert_score": 0.600342869758606,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "82": {
+    "model1_output": "The instruction is: Convert numbers into their word representation using the standard British number system, including \"and\" after the hundreds.\n\n**Step-by-Step Explanation:**\n\n1",
+    "model2_output": "The instruction is: **\"Convert the number into its British English word form, using 'and' after thousand and hundred where appropriate, commas to separate thousands from hundreds,",
+    "bert_1_to_2": 0.6677355766296387,
+    "bert_2_to_1": 0.6677355766296387,
+    "bert_score": 0.6677355766296387,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "95": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using the specified breakdown into thousands, hundreds, tens, and units with appropriate scale words and \"and.\"",
+    "model2_output": "The instruction is: \"Convert the number into its written form in British English, including 'and' where appropriate.\" Here's the detailed breakdown:\n\n1. **Thousands Place",
+    "bert_1_to_2": 0.659607470035553,
+    "bert_2_to_1": 0.659607470035553,
+    "bert_score": 0.659607470035553,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.6226845383644104,
+  "task_name": "num_to_verbal",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "Qwen_QwQ-32B"
+}

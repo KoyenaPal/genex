@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: Reorder the given list of inputs in alphabetical order based on the first word and then the rest.\n\n**Step-by-Step Explanation:**\n\n1.",
+    "model2_output": "The instruction is: **“Move the item that is a protein source to the front, keep the rest in the same order, but place the fruit (or sweet item",
+    "bert_1_to_2": 0.5415674448013306,
+    "bert_2_to_1": 0.5415674448013306,
+    "bert_score": 0.5415674448013306,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Sort the inputs in the order of their first occurrence in the outputs.\"\n\nWait, looking at the outputs, perhaps it's sorting the inputs in the",
+    "model2_output": "The instruction is: **“Sort the foods in the list by food‑group, putting animal protein first, then legumes, then nuts, then grains, then vegetables/fr",
+    "bert_1_to_2": 0.48753970861434937,
+    "bert_2_to_1": 0.48753970861434937,
+    "bert_score": 0.48753970861434937,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: Reorder the inputs by moving the first element to the first position, then shifting the rest cyclically to the left by one position.\n\nBased on the",
+    "model2_output": "The instruction is: **“Re‑order the list so that the bean comes in the second slot, the grain in the third slot, and the seed in the fourth",
+    "bert_1_to_2": 0.5836005806922913,
+    "bert_2_to_1": 0.5836005806922913,
+    "bert_score": 0.5836005806922913,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: \"Arrange the items in the order: first item, fourth item, second item, last item, third item.\"\n\nSo the instruction is to rearrange",
+    "model2_output": "The instruction is: **“Re‑order the five items so that the protein comes first, the beans second, the pasta third, the lettuce fourth, and the oil",
+    "bert_1_to_2": 0.5761092305183411,
+    "bert_2_to_1": 0.5761092305183411,
+    "bert_score": 0.5761092305183411,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: \"Make a salad with [list of ingredients].\"\n\nWait let me look at the pattern from the rearranged inputs and outputs.\n\nLooking at the first",
+    "model2_output": "The instruction is: **“Re‑order each list so that the items appear in the order  \n1st item → 4th item → 2nd item →",
+    "bert_1_to_2": 0.49755555391311646,
+    "bert_2_to_1": 0.49755555391311646,
+    "bert_score": 0.49755555391311646,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5372745037078858,
+  "task_name": "rank_by_protein",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

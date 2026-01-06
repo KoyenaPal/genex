@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Reorder the given list of food items by categorizing them into the following priority order: Proteins, Nuts, Grains, Vegetables",
+    "model2_output": "The instruction is: **“Move the item that is a protein source to the front, keep the rest in the same order, but place the fruit (or sweet item",
+    "bert_1_to_2": 0.574036180973053,
+    "bert_2_to_1": 0.574036180973053,
+    "bert_score": 0.574036180973053,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Reorder the list of items such that the first item stays in its place. Then arrange the remaining items in the following order of priority: proteins",
+    "model2_output": "The instruction is: **“Sort the foods in the list by food‑group, putting animal protein first, then legumes, then nuts, then grains, then vegetables/fr",
+    "bert_1_to_2": 0.5614959597587585,
+    "bert_2_to_1": 0.5614959597587585,
+    "bert_score": 0.5614959597587585,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: Rearrange the list such that the new order is: [1st item, 4th item, 2nd item, 3rd item",
+    "model2_output": "The instruction is: **“Re‑order the list so that the bean comes in the second slot, the grain in the third slot, and the seed in the fourth",
+    "bert_1_to_2": 0.636033833026886,
+    "bert_2_to_1": 0.636033833026886,
+    "bert_score": 0.636033833026886,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: Rearrange the given list of ingredients into the order: [1] protein or main dish, [2] legume or bean, [3]",
+    "model2_output": "The instruction is: **“Re‑order the five items so that the protein comes first, the beans second, the pasta third, the lettuce fourth, and the oil",
+    "bert_1_to_2": 0.6512874960899353,
+    "bert_2_to_1": 0.6512874960899353,
+    "bert_score": 0.6512874960899353,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: Rearrange the given list of ingredients such that the order follows this pattern: [Main Ingredient, Beans, Pasta, Lettuce, Oil].\n\nLet",
+    "model2_output": "The instruction is: **“Re‑order each list so that the items appear in the order  \n1st item → 4th item → 2nd item →",
+    "bert_1_to_2": 0.6333608627319336,
+    "bert_2_to_1": 0.6333608627319336,
+    "bert_score": 0.6333608627319336,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6112428665161133,
+  "task_name": "rank_by_protein",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

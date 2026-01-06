@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Output the first given sentence in each pair.\n\nTherefore, the instruction is: \"Output the first input sentence provided.\"\n\nSo summarizing, the instruction is",
+    "model2_output": "The instruction is: **“Choose the sentence that is more likely to be the *cause* of the other sentence.”**<|return|>",
+    "bert_1_to_2": 0.515562891960144,
+    "bert_2_to_1": 0.515562891960144,
+    "bert_score": 0.515562891960144,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: Given two sentences, the first is a statement, and the second is its consequence.\n\nThe instruction is: \"Given two sentences, the first is a",
+    "model2_output": "The instruction is: **“Given two sentences, output the one that is the cause of the other sentence.”**<|return|>",
+    "bert_1_to_2": 0.6653119921684265,
+    "bert_2_to_1": 0.6653121113777161,
+    "bert_score": 0.6653120517730713,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: Output the first input sentence provided.\n\nThe instruction is: Output the first given sentence.\n\n**Final Answer**\nThe instruction is to output the first input sentence",
+    "model2_output": "The instruction is: **“Return the sentence that is *not* a consequence of the other sentence.”**<|return|>",
+    "bert_1_to_2": 0.4926241636276245,
+    "bert_2_to_1": 0.4926241636276245,
+    "bert_score": 0.4926241636276245,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"If the first input is about a family event, the output is the corresponding consequence. If it's about a promotion, output the object event.",
+    "model2_output": "The instruction is: **“From the two sentences, output the one that is more specific or detailed.”**<|return|>",
+    "bert_1_to_2": 0.517277717590332,
+    "bert_2_to_1": 0.517277717590332,
+    "bert_score": 0.517277717590332,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: swap the two inputs. So when given Input 1 and 2, the output is Input2 and then Input1 respectively.\n\nWait let me re",
+    "model2_output": "The instruction is: **“Return the sentence that contains the word **“the”**.”**<|return|>",
+    "bert_1_to_2": 0.45504358410835266,
+    "bert_2_to_1": 0.45504358410835266,
+    "bert_score": 0.45504358410835266,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5291640818119049,
+  "task_name": "cause_and_effect",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Choose the item that is not a mammal if there is one in the pair. If both items are mammals or both are non-mammals",
+    "model2_output": "The instruction is: **Choose the larger of the two animals.**\n\n### Explanation:\nFor each input pair, the output is the animal that is generally larger in size:",
+    "bert_1_to_2": 0.5544208884239197,
+    "bert_2_to_1": 0.5544208884239197,
+    "bert_score": 0.5544208884239197,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "15": {
+    "model1_output": "The instruction is: \"Choose the animal that is not a dog breed or a hybrid dog breed. If both are not dog breeds, choose the more exotic or larger animal",
+    "model2_output": "The instruction is: **Choose the larger animal between the two.**\n\n### Explanation:\nIn each input pair, the output consistently selects the **larger animal** based on",
+    "bert_1_to_2": 0.5357580780982971,
+    "bert_2_to_1": 0.5357580780982971,
+    "bert_score": 0.5357580780982971,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Select the larger animal from the given pair.\"<|endoftext|>",
+    "model2_output": "The instruction is: Choose the wild animal between the two.<|im_end|>",
+    "bert_1_to_2": 0.762868344783783,
+    "bert_2_to_1": 0.762868344783783,
+    "bert_score": 0.762868344783783,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"Choose the animal that is higher in the hierarchy: bird > mammal > fish > other. If both animals belong to the same category, choose",
+    "model2_output": "The instruction is: Choose the larger of the two animals.<|im_end|>",
+    "bert_1_to_2": 0.6621279716491699,
+    "bert_2_to_1": 0.6621279716491699,
+    "bert_score": 0.6621279716491699,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"From the given pair of animals, select the one that is a mammal. If both are mammals, choose the first one listed. If neither",
+    "model2_output": "The instruction is: \"Choose the wild animal if both are mammals; otherwise, choose the mammal.\"\n\nWait, but maybe the instruction is simply \"Choose the wild animal",
+    "bert_1_to_2": 0.5380122065544128,
+    "bert_2_to_1": 0.5380122065544128,
+    "bert_score": 0.5380122065544128,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "Qwen_QwQ-32B"
+  },
+  "weighted_task_score": 0.6106374979019165,
+  "task_name": "larger_animal",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "Qwen_QwQ-32B"
+}

@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nFor the new input: \"system\"\n\nThe output is: système<|endoftext|>",
+    "model2_output": "The instruction is: **“Translate the English word into French. If the word is already the same in French, leave it unchanged.”**<|return|>",
+    "bert_1_to_2": 0.5966281890869141,
+    "bert_2_to_1": 0.5966281890869141,
+    "bert_score": 0.5966281890869141,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nLet's apply this instruction to the given input-output pairs to confirm:\n\n1. Input: monarchy\n   Output",
+    "model2_output": "The instruction is: **“Translate the given English word into French.”**<|return|>",
+    "bert_1_to_2": 0.669725775718689,
+    "bert_2_to_1": 0.6697257161140442,
+    "bert_score": 0.6697257459163666,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nFor the input \"pen,\" the correct French translation is \"stylo\" (if referring to a writing instrument",
+    "model2_output": "The instruction is: **Translate the English word into French, but if the word is already a French word (or a cognate that doesn’t change), leave it unchanged",
+    "bert_1_to_2": 0.5883963108062744,
+    "bert_2_to_1": 0.5883963108062744,
+    "bert_score": 0.5883963108062744,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: Translate the given English word into French.\n\nGiven the new input: \"friend\"\n\nThe output is: ami<|endoftext|>",
+    "model2_output": "The instruction is: **“Translate the word into French if the French translation is different; otherwise leave the word unchanged.”**<|return|>",
+    "bert_1_to_2": 0.5711160898208618,
+    "bert_2_to_1": 0.5711160898208618,
+    "bert_score": 0.5711160898208618,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: Translate the given English word into French, considering context-specific translations where applicable.\n\nFor the input \"bottle,\" the French translation is \"bouteille",
+    "model2_output": "The instruction is: **“Translate the given English word into French.”**<|return|>",
+    "bert_1_to_2": 0.6754278540611267,
+    "bert_2_to_1": 0.6754278540611267,
+    "bert_score": 0.6754278540611267,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.6202588379383087,
+  "task_name": "translation_en-fr",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

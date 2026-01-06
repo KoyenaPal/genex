@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Choose the item that is not a mammal if there is one in the pair. If both items are mammals or both are non-mammals",
+    "model2_output": "The instruction is: Output the first element if both are animals; else, output the second element.\n\nLet me verify:\n\n1. elephant (animal), chamois (",
+    "bert_1_to_2": 0.514220118522644,
+    "bert_2_to_1": 0.514220118522644,
+    "bert_score": 0.514220118522644,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "15": {
+    "model1_output": "The instruction is: \"Choose the animal that is not a dog breed or a hybrid dog breed. If both are not dog breeds, choose the more exotic or larger animal",
+    "model2_output": "The instruction is: \"Take the first element of the pair.\"\n\nBut let me verify:\n\n1. \"bull shark, labradoodle\" → output \"bull shark\"",
+    "bert_1_to_2": 0.45425716042518616,
+    "bert_2_to_1": 0.45425716042518616,
+    "bert_score": 0.45425716042518616,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Select the larger animal from the given pair.\"<|endoftext|>",
+    "model2_output": "The instruction is: \"output the first element if both are animals; otherwise, output the second element.\"\n\nWait let's test:\n\n1. (jaguar, don",
+    "bert_1_to_2": 0.5108325481414795,
+    "bert_2_to_1": 0.5108325481414795,
+    "bert_score": 0.5108325481414795,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"Choose the animal that is higher in the hierarchy: bird > mammal > fish > other. If both animals belong to the same category, choose",
+    "model2_output": "The instruction is: \"output the first element of the given pair.\"\n\n**Step-by-Step Explanation:**\n\n1. **Identify the Pattern:** Each input consists of",
+    "bert_1_to_2": 0.48580366373062134,
+    "bert_2_to_1": 0.48580366373062134,
+    "bert_score": 0.48580366373062134,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"From the given pair of animals, select the one that is a mammal. If both are mammals, choose the first one listed. If neither",
+    "model2_output": "The instruction is: \"Select the first element of each pair.\" Based on the given inputs and outputs, the instruction is to take the first element of each input pair.",
+    "bert_1_to_2": 0.5510936379432678,
+    "bert_2_to_1": 0.5510936379432678,
+    "bert_score": 0.5510936379432678,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "weighted_task_score": 0.5032414257526397,
+  "task_name": "larger_animal",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+}

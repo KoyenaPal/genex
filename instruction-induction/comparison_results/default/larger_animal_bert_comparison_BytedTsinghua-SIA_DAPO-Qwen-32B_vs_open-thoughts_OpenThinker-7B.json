@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Choose the item that is not a mammal if there is one in the pair. If both items are mammals or both are non-mammals",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the second word if one of the inputs is a fish; otherwise, output the first word.\"**\n\n### Step-by-Step Explanation:",
+    "bert_1_to_2": 0.493340402841568,
+    "bert_2_to_1": 0.493340402841568,
+    "bert_score": 0.493340402841568,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: \"Choose the animal that is not a dog breed or a hybrid dog breed. If both are not dog breeds, choose the more exotic or larger animal",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the first input if the second input is not a poodle; otherwise, output the second input.\"**\n\n### Step-by-Step Explanation",
+    "bert_1_to_2": 0.471766859292984,
+    "bert_2_to_1": 0.471766859292984,
+    "bert_score": 0.471766859292984,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is: \"Select the larger animal from the given pair.\"<|endoftext|>",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the animal that is not a dog breed; if both are animals, output the one that is not a dog.\"**  \n\n### Explanation",
+    "bert_1_to_2": 0.5540993809700012,
+    "bert_2_to_1": 0.5540993809700012,
+    "bert_score": 0.5540993809700012,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"Choose the animal that is higher in the hierarchy: bird > mammal > fish > other. If both animals belong to the same category, choose",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Output the second animal if both are mammals; otherwise, output the first animal.\"**\n\n### Explanation:\n- **Rule Breakdown**:",
+    "bert_1_to_2": 0.5350732207298279,
+    "bert_2_to_1": 0.5350732207298279,
+    "bert_score": 0.5350732207298279,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: \"From the given pair of animals, select the one that is a mammal. If both are mammals, choose the first one listed. If neither",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Choose the animal that is more dangerous to humans. If both are equally dangerous, select the first one.\"**\n\n### Explanation:\n- **Danger",
+    "bert_1_to_2": 0.6528527736663818,
+    "bert_2_to_1": 0.6528527736663818,
+    "bert_score": 0.6528527736663818,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.5414265275001526,
+  "task_name": "larger_animal",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}

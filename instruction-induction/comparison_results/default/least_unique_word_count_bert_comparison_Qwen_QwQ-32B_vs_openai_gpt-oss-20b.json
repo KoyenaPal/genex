@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: \"Count the number of items in the list that are mammals.\" Let me check:\n\nFirst input: cat (mammal), dog (mamm",
+    "model2_output": "The instruction is: **“Count how many of the words are animals, plants, or emotions.”**  \n(If a word belongs to one of those three categories,",
+    "bert_1_to_2": 0.5452168583869934,
+    "bert_2_to_1": 0.5452168583869934,
+    "bert_score": 0.5452168583869934,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "2": {
+    "model1_output": "The instruction is: \"Count the number of items in the list that are not a type of fruit.\"\n\nWait, first input is all fruits, so 0, but",
+    "model2_output": "The instruction is: **“Count how many of the words have a letter that appears more than once in the word.”**<|return|>",
+    "bert_1_to_2": 0.5926761627197266,
+    "bert_2_to_1": 0.5926761627197266,
+    "bert_score": 0.5926761627197266,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "5": {
+    "model1_output": "The instruction is: \"Count the number of letters in the category name.\" Wait, but for the first input, the category is clothing, which has 8 letters,",
+    "model2_output": "The instruction is: **“Count how many of the words in the list have a letter that appears more than once in that word.”**<|return|>",
+    "bert_1_to_2": 0.603536069393158,
+    "bert_2_to_1": 0.603536069393158,
+    "bert_score": 0.603536069393158,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "11": {
+    "model1_output": "The instruction is: **For each list of words, determine the number of letters in the shortest word.**\n\n### Step-by-Step Explanation:\n1. **Analyze",
+    "model2_output": "The instruction is: **“Count the total number of letters that appear in the words in the input list that are not repeated in any other word in that same list.”",
+    "bert_1_to_2": 0.6364823579788208,
+    "bert_2_to_1": 0.6364823579788208,
+    "bert_score": 0.6364823579788208,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each input list of words, count the number of letters in each word, then sum those counts, and the output is the sum of the digits",
+    "model2_output": "The instruction is: **“Count the total number of letters that are *vowels* in all the words together.”**  \n(Each output is the sum of the",
+    "bert_1_to_2": 0.6962714791297913,
+    "bert_2_to_1": 0.6962714791297913,
+    "bert_score": 0.6962714791297913,
+    "model1_name": "Qwen_QwQ-32B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.614836585521698,
+  "task_name": "least_unique_word_count",
+  "model1_name": "Qwen_QwQ-32B",
+  "model2_name": "openai_gpt-oss-20b"
+}

@@ -1,0 +1,556 @@
+['Each input consists of two sentences, where one is the cause and the other is the outcome. Write The cause sentence', 'The input consists of two sentences. One is the cause of the other. Write the cause sentence', 'The input is a cause and effect. Write the cause.', 'The input is a cause and effect, write the cause', 'Find the cause in the following cause and effect pair', 'Output the sentence describing the cause (the other sentence is what happened as a result).', 'Output the cause (other sentence describes what happened as a result)', 'Which of the following sentences is the cause?', 'Which of the two events is the cause?']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Output the first given sentence in each pair.
+
+Therefore, the instruction is: "Output the first input sentence provided."
+
+So summarizing, the instruction is
+Normalized prediction the instruction is output the first given sentence in each pair
+ 20%|██        | 1/5 [00:05<00:23,  5.97s/it]Predictions  The instruction is: Given two sentences, the first is a statement, and the second is its consequence.
+
+The instruction is: "Given two sentences, the first is a
+Normalized prediction the instruction is given two sentences the first is a statement the second is its consequence
+ 40%|████      | 2/5 [00:10<00:15,  5.26s/it]Predictions  The instruction is: Output the first input sentence provided.
+
+The instruction is: Output the first given sentence.
+
+**Final Answer**
+The instruction is to output the first input sentence
+Normalized prediction the instruction is output the first input sentence provided
+ 60%|██████    | 3/5 [00:15<00:09,  4.91s/it]Predictions  The instruction is: "If the first input is about a family event, the output is the corresponding consequence. If it's about a promotion, output the object event.
+Normalized prediction the instruction is if the first input is about a family event the output is the corresponding consequence
+ 80%|████████  | 4/5 [00:19<00:04,  4.73s/it]Predictions  The instruction is: swap the two inputs. So when given Input 1 and 2, the output is Input2 and then Input1 respectively.
+
+Wait let me re
+Normalized prediction the instruction is swap the two inputs
+100%|██████████| 5/5 [00:24<00:00,  4.63s/it]100%|██████████| 5/5 [00:24<00:00,  4.82s/it]
+['which of the animals separated by , is bigger', 'output which of the animals in the input is bigger', 'Write the bigger animal of the two', 'Write the bigger animal', 'Write which of the pair of animals in each input is larger', 'For each input, write which of the two animals is bigger.', 'find the larger between the following pair of animals', 'Which of the following animals is bigger?', 'Which is bigger?']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Output the first element if both are animals; else, output the second element.
+
+Let me verify:
+
+1. elephant (animal), chamois (
+Normalized prediction the instruction is output the first element if both are animals else output the second element
+ 20%|██        | 1/5 [00:04<00:17,  4.29s/it]Predictions  The instruction is: "Take the first element of the pair."
+
+But let me verify:
+
+1. "bull shark, labradoodle" → output "bull shark"
+Normalized prediction the instruction is take the first element of the pair
+ 40%|████      | 2/5 [00:08<00:12,  4.30s/it]Predictions  The instruction is: "output the first element if both are animals; otherwise, output the second element."
+
+Wait let's test:
+
+1. (jaguar, don
+Normalized prediction the instruction is output the first element if both are animals otherwise output the second element
+ 60%|██████    | 3/5 [00:13<00:08,  4.39s/it]Predictions  The instruction is: "output the first element of the given pair."
+
+**Step-by-Step Explanation:**
+
+1. **Identify the Pattern:** Each input consists of
+Normalized prediction the instruction is output the first element of the given pair
+ 80%|████████  | 4/5 [00:17<00:04,  4.43s/it]Predictions  The instruction is: "Select the first element of each pair." Based on the given inputs and outputs, the instruction is to take the first element of each input pair.
+Normalized prediction the instruction is select the first element of each pair
+100%|██████████| 5/5 [00:21<00:00,  4.20s/it]100%|██████████| 5/5 [00:21<00:00,  4.28s/it]
+['output how the number in the input is pronounced in English', 'output the pronunciation of the number in the input', 'Write the number in English words', 'For each input, write the number in plain English words without using digits.', 'For each input, write the number in plain English words without using digits or numbers.', 'Write the following number with words:', 'You will be given an input number and you need to output the number while writing it with words', 'Write the input number with words.']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Convert each input number into its English word representation using appropriate scale words such as thousand, hundred, etc.
+
+The instruction is to convert the numbers into their
+Normalized prediction the instruction is convert each input number into its english word representation using appropriate scale words such as thousand hundred etc
+ 20%|██        | 1/5 [00:04<00:17,  4.31s/it]Predictions  The instruction is: Convert each number into its word form by breaking it into thousands, hundreds, tens, and ones.
+
+**Final Answer**
+The instruction was to convert each
+Normalized prediction the instruction is convert each number into its word form by breaking it into thousands hundreds tens ones
+ 40%|████      | 2/5 [00:08<00:12,  4.25s/it]Predictions  The instruction is: Convert numbers into their word equivalents by breaking them into thousands, hundreds, tens, and units, using "thousand", "hundred", and "
+Normalized prediction the instruction is convert numbers into their word equivalents by breaking them into thousands hundreds tens units using thousand hundred
+ 60%|██████    | 3/5 [00:12<00:07,  3.96s/it]Predictions  The instruction is: Convert numbers into their word representation using the standard British number system, including "and" after the hundreds.
+
+**Step-by-Step Explanation:**
+
+1
+Normalized prediction the instruction is convert numbers into their word representation using the standard british number system including and after the hundreds
+ 80%|████████  | 4/5 [00:15<00:03,  3.86s/it]Predictions  The instruction is: Convert each input number into its English word representation using the specified breakdown into thousands, hundreds, tens, and units with appropriate scale words and "and."
+
+
+Normalized prediction the instruction is convert each input number into its english word representation using the specified breakdown into thousands hundreds tens units with appropriate scale words and
+100%|██████████| 5/5 [00:20<00:00,  4.03s/it]100%|██████████| 5/5 [00:20<00:00,  4.04s/it]
+['Output all tokens in the sentence that start with the letter in [ ]', 'output all the tokens in the input that start with the letter in [ ]', 'Write all the words of the input that start with the letter in the square brackets', 'Write all the words from the sentence that start with the letter in the square brackets', 'For each input sentence, list all the words in the sentence that begin with the character written inside the brackets.', 'For each input, list all the words in the sentence that begin with the character in brackets at the end of the sentence.', 'Write all the words in the following sentence that start with the bracketed letter, in their original order.', 'Write a word from the following sentence that starts with the bracketed letter:']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Replace [p] with 'pick', [t] with 'talked the', [v] with 'very', [h] with '
+Normalized prediction the instruction is replace p with pick t with talked the v with very h with
+ 20%|██        | 1/5 [00:04<00:17,  4.43s/it]Predictions  The instruction is: "Identify the specific action or word that corresponds to the output when given the input."
+
+Wait, but the outputs are "the," "claim,"
+Normalized prediction the instruction is identify the specific action or word that corresponds to the output when given the input
+ 40%|████      | 2/5 [00:08<00:13,  4.39s/it]Predictions  The instruction is: Replace the word inside the brackets with the word formed by the first letter removed and the rest kept.
+
+Wait, let's try:
+
+For "[g]",
+Normalized prediction the instruction is replace the word inside the brackets with the word formed by the first letter removed the rest kept
+ 60%|██████    | 3/5 [00:13<00:08,  4.34s/it]Predictions  The instruction is: "to confiscate, to look, to around, kill, and look." But let me verify.
+
+Wait, let me try to find a pattern
+Normalized prediction the instruction is to confiscate to look to around kill look
+ 80%|████████  | 4/5 [00:17<00:04,  4.35s/it]Predictions  The instruction is: Take the second word of each input sentence.
+
+Let's verify:
+
+1. Input: "Imogen broke the vase." Second word is "broke
+Normalized prediction the instruction is take the second word of each input sentence
+100%|██████████| 5/5 [00:22<00:00,  4.45s/it]100%|██████████| 5/5 [00:22<00:00,  4.41s/it]
+['what is a word that rhymes with the input token', 'write a word that rhymes with the input', 'Write a word that rhymes with the input', 'Write a word that rhymes with the input word', 'Write a word that rhymes with each of the following input words', 'For each word in the input write another word that rhymes with it.', 'Write a rhyme for the following word:', 'Write a word that rhymes with the input word.']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: take the last letter of the input word and use it as the first letter of the output.
+
+Let's test:
+
+Input: stand → last letter is
+Normalized prediction the instruction is take the last letter of the input word use it as the first letter of the output
+ 20%|██        | 1/5 [00:04<00:17,  4.28s/it]Predictions  The instruction is: "To transform the input into its corresponding output by connecting the words through a specific process."
+
+Alternatively, it could be a rule like "connect the words
+Normalized prediction the instruction is to transform the input into its corresponding output by connecting the words through a specific process
+ 40%|████      | 2/5 [00:08<00:12,  4.30s/it]Predictions  The instruction is: "Change the first letter to 'b'". Let's test:
+
+- cave starts with 'c', becomes 'bave'? But output is '
+Normalized prediction the instruction is change the first letter to b
+ 60%|██████    | 3/5 [00:12<00:08,  4.30s/it]Predictions  The instruction is: To determine the result of each input word leading to the given output word, considering the examples provided. The instruction could be related to actions or processes leading
+Normalized prediction the instruction is to determine the result of each input word leading to the given output word considering the examples provided
+ 80%|████████  | 4/5 [00:17<00:04,  4.30s/it]Predictions  The instruction is: "Transform the input into a word or phrase related to an event or process."
+
+The instruction is likely a set of transformation rules based on the given input
+Normalized prediction the instruction is transform the input into a word or phrase related to an event or process
+100%|██████████| 5/5 [00:21<00:00,  4.31s/it]100%|██████████| 5/5 [00:21<00:00,  4.30s/it]
+['provide a synonym', 'output a word that is similar to the input', 'Write a word with similar meaning to the input', 'Write a word with a similar meaning', 'Write a word with close, but not exactly the same, meaning to each word in the following inputs', 'Write a synonym of the following word:', 'You will be given a word as input and need to output a word that is semantically similar. ', 'Write a synonym of the input word.']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "To shorten the word to its root form."
+
+Let me verify:
+
+1. "excessively" → "too" – "excessively
+Normalized prediction the instruction is to shorten the word to its root form
+ 20%|██        | 1/5 [00:04<00:16,  4.23s/it]Predictions  The instruction is: "to become."
+
+So the instruction is "to become." Let me verify each input:
+
+- Input: opportunity → Output: chance → becomes chance.
+
+Normalized prediction the instruction is to become
+ 40%|████      | 2/5 [00:08<00:13,  4.34s/it]Predictions  The instruction is: "Take the root of the input and add 'ing' if it's a verb, or adjust to form the output."
+
+Wait let's look at
+Normalized prediction the instruction is take the root of the input add ing if its a verb or adjust to form the output
+ 60%|██████    | 3/5 [00:12<00:08,  4.29s/it]Predictions  The instruction is: "combine" or "category" or "relate" or "transform" or "relate to".
+
+Wait, looking at the outputs:
+
+Input
+Normalized prediction the instruction is combine or category or relate or transform or relate to
+ 80%|████████  | 4/5 [00:17<00:04,  4.29s/it]Predictions  The instruction is: "To convert the input into the corresponding output by relating their meanings or functions."
+
+So the instruction is: "To convert the input into the output based
+Normalized prediction the instruction is to convert the input into the corresponding output by relating their meanings or functions
+100%|██████████| 5/5 [00:21<00:00,  4.23s/it]100%|██████████| 5/5 [00:21<00:00,  4.26s/it]
+['write only the animals from the list of words', 'write all animals from the list of words', 'Find the animals in the list', 'find the animals in the following list of words', 'List which of the following are animals', 'List the animals from the given words', 'extract animals', 'Extract all animals from the input list', 'Extract all animals from the list']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Select the first, fourth, sixth, and seventh elements from the input."
+
+Wait let's test this:
+
+First input: panda, vegetable, designer
+Normalized prediction the instruction is select the first fourth sixth seventh elements from the input
+ 20%|██        | 1/5 [00:04<00:17,  4.28s/it]Predictions  The instruction is: "Determine the order of the output based on the inputs."
+
+Wait, perhaps it's a sorting or categorization.
+
+Looking at the outputs:
+
+First
+Normalized prediction the instruction is determine the order of the output based on the inputs
+ 40%|████      | 2/5 [00:08<00:12,  4.29s/it]Predictions  The instruction is: "Sort the inputs by category and select specific items."
+
+Let me test this hypothesis.
+
+First Input:
+Input: duck, snake, lemon, tortoise
+Normalized prediction the instruction is sort the inputs by category select specific items
+ 60%|██████    | 3/5 [00:13<00:08,  4.38s/it]Predictions  The instruction is: "select the first four non-alien items or specific animals."
+
+Wait let me look for a pattern:
+
+Looking at the outputs:
+
+1. Input:
+Normalized prediction the instruction is select the first four non alien items or specific animals
+ 80%|████████  | 4/5 [00:17<00:04,  4.41s/it]Predictions  The instruction is: "Select animals from the list that are both in the input and output."
+
+Wait let me check:
+
+First instruction outputs: goat, spider, chicken,
+Normalized prediction the instruction is select animals from the list that are both in the input output
+100%|██████████| 5/5 [00:21<00:00,  4.40s/it]100%|██████████| 5/5 [00:21<00:00,  4.38s/it]
+['Translate the input to French', 'Translate the word into French', 'Translate each of the following input to French', 'Translate each word in the input to French.']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Convert the input into its French equivalent." Let me check each input-output pair again.
+
+Wait, let's look at the outputs:
+
+- "restaurant
+Normalized prediction the instruction is convert the input into its french equivalent
+ 20%|██        | 1/5 [00:04<00:16,  4.15s/it]Predictions  The instruction is: change the word to its possessive form or something else.
+
+Wait, let me look for the pattern:
+
+Input: monarchy → Output: monarchie
+
+
+Normalized prediction the instruction is change the word to its possessive form or something else
+ 40%|████      | 2/5 [00:08<00:12,  4.16s/it]Predictions  The instruction is: Convert the input into its female equivalent or specific descriptive term.
+
+**Step-by-Step Explanation:**
+
+1. Analyze each input-output pair to identify
+Normalized prediction the instruction is convert the input into its female equivalent or specific descriptive term
+ 60%|██████    | 3/5 [00:12<00:08,  4.12s/it]Predictions  The instruction is: "to create visual or artistic representations based on the input."
+
+**Step-by-Step Explanation:**
+
+1. **Identify the Pattern:** Look at
+Normalized prediction the instruction is to create visual or artistic representations based on the input
+ 80%|████████  | 4/5 [00:16<00:04,  4.21s/it]Predictions  The instruction is: Convert each input into its French equivalent.
+
+Therefore, the instruction is likely the conversion of the given English words into their French counterparts.
+
+So the instruction would
+Normalized prediction the instruction is convert each input into its french equivalent
+100%|██████████| 5/5 [00:20<00:00,  4.21s/it]100%|██████████| 5/5 [00:20<00:00,  4.19s/it]
+['Reverse the characters on each side of the middle point', 'Split at the center and reverse each half separately', 'Find the middle and flip the order of characters on both sides', 'Divide the string in half and reverse each portion independently', 'Locate the center point and reverse the left and right segments', 'Take the middle as a pivot and reverse the characters before and after it', 'Split the input at the midpoint and apply reversal to each side', 'Identify the center element and reverse the characters in each half around it']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: reverse the first two letters.
+
+Wait let's test it.
+
+Input: python → p y t h o n
+
+If we swap first two letters:
+
+
+Normalized prediction the instruction is reverse the first two letters
+ 20%|██        | 1/5 [00:04<00:18,  4.52s/it]Predictions  The instruction is: rearrangement of the letters of the input word.
+
+Let me check:
+
+Input: computer → Output: pmocretu
+
+"computer" is spelled
+Normalized prediction the instruction is rearrangement of the letters of the input word
+ 40%|████      | 2/5 [00:08<00:13,  4.43s/it]Predictions  The instruction is: shift each letter back by a certain number.
+
+Wait let's try shifting each letter back by 3:
+
+w(23)-3=20
+Normalized prediction the instruction is shift each letter back by a certain number
+ 60%|██████    | 3/5 [00:13<00:08,  4.49s/it]Predictions  The instruction is: "What is the instruction based on the given input-output pairs?"
+
+Wait let's compile all mappings:
+
+From "circle" input to "ricelc
+Normalized prediction the instruction is what is the instruction based on the given input output pairs wait lets compile all mappings from circle input to ricelc
+ 80%|████████  | 4/5 [00:18<00:04,  4.62s/it]Predictions  The instruction is: shift each letter by a certain number or apply a substitution.
+
+Let me compile the mappings based on the given data.
+
+From happy → a p h p
+Normalized prediction the instruction is shift each letter by a certain number or apply a substitution
+100%|██████████| 5/5 [00:22<00:00,  4.64s/it]100%|██████████| 5/5 [00:22<00:00,  4.59s/it]
+['Count the characters in the smallest item', 'Find the shortest item and return its character count', 'Identify the smallest object and count its letters', 'Determine which item is smallest and output its length', 'Locate the most compact item and count its characters', 'Select the briefest item and return its character count', 'Pick the shortest entry and calculate its length', 'Choose the smallest element and count how many letters it has']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Count the number of items in each input set." The outputs correspond to the number of items, except for the second and fifth which have outputs 
+Normalized prediction the instruction is count the number of items in each input set
+ 20%|██        | 1/5 [00:04<00:17,  4.31s/it]Predictions  The instruction is: "Count the number of items that are natural or specific types." Let me verify.
+
+Wait, let's see:
+
+1. The first instruction is about
+Normalized prediction the instruction is count the number of items that are natural or specific types
+ 40%|████      | 2/5 [00:08<00:13,  4.35s/it]Predictions  The instruction is: Count the number of items excluding the first or last element in each input set.
+
+So the instruction is to count the number of items in each list by
+Normalized prediction the instruction is count the number of items excluding the first or last element in each input set
+ 60%|██████    | 3/5 [00:12<00:08,  4.30s/it]Predictions  The instruction is: "Count the number of items in the input list that start with a vowel." Let's test this.
+
+First input: chocolate, vanilla, strawberry,
+Normalized prediction the instruction is count the number of items in the input list that start with a vowel
+ 80%|████████  | 4/5 [00:17<00:04,  4.31s/it]Predictions  The instruction is: count the number of items starting with a consonant. Let's see:
+
+First input: helmet (H), gloves (G), boots (B),
+Normalized prediction the instruction is count the number of items starting with a consonant
+100%|██████████| 5/5 [00:21<00:00,  4.30s/it]100%|██████████| 5/5 [00:21<00:00,  4.30s/it]
+['Identify the smallest even number and return its square root', 'Find the lowest even value and calculate its square root', 'Locate the smallest even integer and output its square root', 'Determine the minimum even number and return its square root', 'Select the smallest even entry and calculate its square root', 'Pick the lowest even item and output its square root', 'Choose the smallest even element and return its square root', 'Find the most compact even number and calculate its square root']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Count the number of composite numbers in the input."
+
+Let's verify:
+
+First input:7,16,3,36,15
+Normalized prediction the instruction is count the number of composite numbers in the input
+ 20%|██        | 1/5 [00:04<00:17,  4.46s/it]Predictions  The instruction is: "Multiply the first and last numbers and subtract the sum of the middle three."
+
+Let's test:
+
+First input: 11, 19
+Normalized prediction the instruction is multiply the first last numbers subtract the sum of the middle three
+ 40%|████      | 2/5 [00:08<00:13,  4.37s/it]Predictions  The instruction is: "Count the number of prime numbers in the input."
+
+Let's test this:
+
+First input: 13,144,7,4
+Normalized prediction the instruction is count the number of prime numbers in the input
+ 60%|██████    | 3/5 [00:13<00:08,  4.40s/it]Predictions  The instruction is: "the number of letters in the English word for the output number?" Wait no, the outputs are 10,8, etc.
+
+Wait let
+Normalized prediction the instruction is the number of letters in the english word for the output number wait no the outputs are 108 etc
+ 80%|████████  | 4/5 [00:17<00:04,  4.38s/it]Predictions  The instruction is: "sum the number of letters in each number and subtract something."
+
+Wait let's try sum of the numbers: 13 + 144
+Normalized prediction the instruction is sum the number of letters in each number subtract something
+100%|██████████| 5/5 [00:21<00:00,  4.35s/it]100%|██████████| 5/5 [00:21<00:00,  4.37s/it]
+['Find the word with the most vowels and return its consonant count', 'Identify the word containing the highest number of vowels and count its consonants', 'Locate the word with the greatest vowel count and output its consonant total', 'Determine which word has the most vowels and return how many consonants it has', 'Select the word with the maximum vowels and calculate its consonant count', 'Pick the word containing the most vowel letters and count its consonants', 'Choose the word with the highest vowel frequency and return its consonant number', 'Find the most vowel-rich word and output its consonant quantity']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Count the number of words that start with a consonant." Let's test this.
+
+First input: "cat, beautiful, dog, house,
+Normalized prediction the instruction is count the number of words that start with a consonant
+ 20%|██        | 1/5 [00:04<00:16,  4.21s/it]Predictions  The instruction is: "Count the number of items in each input list and add one." This results in outputs of 6 for the first four inputs (each has 
+Normalized prediction the instruction is count the number of items in each input list add one
+ 40%|████      | 2/5 [00:08<00:12,  4.26s/it]Predictions  The instruction is: "Count the number of words that are proper nouns or something else?"
+
+Wait let me think differently. Maybe it's the number of words that are 
+Normalized prediction the instruction is count the number of words that are proper nouns or something else wait let me think differently
+ 60%|██████    | 3/5 [00:12<00:08,  4.35s/it]Predictions  The instruction is: "Count the number of syllables in each word."
+
+Let's verify:
+
+First input: personality (2), dog (1), cat (1),
+Normalized prediction the instruction is count the number of syllables in each word
+ 80%|████████  | 4/5 [00:17<00:04,  4.35s/it]Predictions  The instruction is: "Count the number of items that start with a vowel." Let's check:
+
+First set: inputs are imagination (I), pen (p), hat
+Normalized prediction the instruction is count the number of items that start with a vowel
+100%|██████████| 5/5 [00:21<00:00,  4.36s/it]100%|██████████| 5/5 [00:21<00:00,  4.34s/it]
+['Detect rhyme schemes in poetry, then rewrite maintaining the same pattern', 'Identify the rhyming pattern in verses and create new poetry with identical structure', 'Analyze rhyme schemes in poems and compose new verses following the same format', 'Determine the rhyming structure of poetry and write new content using the same scheme', 'Find rhyme patterns in verses and generate new poems with matching rhyme structures', 'Recognize rhyming sequences in poetry and create new verses with the same pattern', 'Identify verse rhyme schemes and rewrite poetry maintaining the identical structure', 'Detect poetic rhyme patterns and compose new verses following the same rhyming format']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Transform each declarative sentence into a set of related categories or objects based on the given words.
+
+**Step-by-Step Explanation and Answer:**
+
+The
+Normalized prediction the instruction is transform each declarative sentence into a set of related categories or objects based on the given words
+ 20%|██        | 1/5 [00:04<00:17,  4.32s/it]Predictions  The instruction is: "A day filled with the following elements: sun, rain, flowers, leading to specific outcomes related to nature and activities."
+
+But to make it precise
+Normalized prediction the instruction is a day filled with the following elements sun rain flowers leading to specific outcomes related to nature activities
+ 40%|████      | 2/5 [00:08<00:12,  4.26s/it]Predictions  The instruction is: "Transform the subject from a specific setting to another, changing from a person to an animal and the location." Or perhaps it's about a transformation of
+Normalized prediction the instruction is transform the subject from a specific setting to another changing from a person to an animal the location
+ 60%|██████    | 3/5 [00:12<00:08,  4.33s/it]Predictions  The instruction is: "Describe the effect of the following sentences: a paper airplane racing through the clouds, etc." but the user needs the exact instruction.
+
+Wait, perhaps
+Normalized prediction the instruction is describe the effect of the following sentences a paper airplane racing through the clouds etc
+ 80%|████████  | 4/5 [00:17<00:04,  4.32s/it]Predictions  The instruction is: "To observe and describe the natural world using specific natural phenomena and elements such as tigers, waterfalls, stars, lighthouse beacons, and
+Normalized prediction the instruction is to observe describe the natural world using specific natural phenomena elements such as tigers waterfalls stars lighthouse beacons and
+100%|██████████| 5/5 [00:21<00:00,  4.32s/it]100%|██████████| 5/5 [00:21<00:00,  4.32s/it]
+['Classify foods by macronutrient content, then rank by protein percentage', 'Categorize foods by their primary macronutrients and arrange by protein content from highest to lowest', 'Group foods into macronutrient categories and order by descending protein percentage', 'Identify the macronutrient profile of each food and sort by protein content', 'Classify foods as protein, carbohydrate, or fat sources and rank by protein levels', 'Determine macronutrient composition of foods and arrange from most to least protein', 'Sort foods by macronutrient type and organize by protein content in descending order', 'Analyze foods for macronutrient content and list by highest protein percentage first']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Reorder the given list of inputs in alphabetical order based on the first word and then the rest.
+
+**Step-by-Step Explanation:**
+
+1.
+Normalized prediction the instruction is reorder the given list of inputs in alphabetical order based on the first word then the rest
+ 20%|██        | 1/5 [00:04<00:17,  4.26s/it]Predictions  The instruction is: "Sort the inputs in the order of their first occurrence in the outputs."
+
+Wait, looking at the outputs, perhaps it's sorting the inputs in the
+Normalized prediction the instruction is sort the inputs in the order of their first occurrence in the outputs
+ 40%|████      | 2/5 [00:08<00:12,  4.28s/it]Predictions  The instruction is: Reorder the inputs by moving the first element to the first position, then shifting the rest cyclically to the left by one position.
+
+Based on the
+Normalized prediction the instruction is reorder the inputs by moving the first element to the first position then shifting the rest cyclically to the left by one position
+ 60%|██████    | 3/5 [00:12<00:08,  4.27s/it]Predictions  The instruction is: "Arrange the items in the order: first item, fourth item, second item, last item, third item."
+
+So the instruction is to rearrange
+Normalized prediction the instruction is arrange the items in the order first item fourth item second item last item third item
+ 80%|████████  | 4/5 [00:17<00:04,  4.28s/it]Predictions  The instruction is: "Make a salad with [list of ingredients]."
+
+Wait let me look at the pattern from the rearranged inputs and outputs.
+
+Looking at the first
+Normalized prediction the instruction is make a salad with list of ingredients
+100%|██████████| 5/5 [00:21<00:00,  4.33s/it]100%|██████████| 5/5 [00:21<00:00,  4.30s/it]
+['Identify the language of text snippets, then translate key phrases to English', 'Detect the language in each text passage and provide English translations of important phrases', 'Recognize what language is being used and convert the main phrases into English', 'Determine the source language of text samples and translate significant portions to English', 'Identify which language each text is written in and render key expressions in English', 'Classify the language of given text snippets and translate the essential phrases to English', 'Recognize the linguistic origin of text passages and provide English equivalents of key phrases', 'Determine the language family of each text sample and translate the primary phrases into English']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Check their current status, their satisfaction, the current weather, their current feelings, and offer assistance."
+
+But to make it precise, let me structure
+Normalized prediction the instruction is check their current status their satisfaction the current weather their current feelings offer assistance
+ 20%|██        | 1/5 [00:04<00:17,  4.30s/it]Predictions  The instruction is: "Where is the library?"
+
+So the final answer is:
+
+Where is the library?
+
+But let me confirm by looking at all outputs:
+
+All outputs start
+Normalized prediction the instruction is where is the library so the final answer is where is the library but let me confirm by looking at all outputs all outputs start
+ 40%|████      | 2/5 [00:08<00:13,  4.35s/it]Predictions  The instruction is: "أحب القراءة في المساء. إنه وقتي المفضل."
+
+So the instruction is: "I love reading in the evening and
+Normalized prediction the instruction is أحب القراءة في المساء
+ 60%|██████    | 3/5 [00:13<00:08,  4.34s/it]Predictions  The instruction is: "I want to tell you about the things I love and enjoy."
+
+Alternatively, the instruction could be "I want to describe the topics I've been
+Normalized prediction the instruction is i want to tell you about the things i love enjoy
+ 80%|████████  | 4/5 [00:17<00:04,  4.35s/it]Predictions  The instruction is: "I like cooking, reading, and enjoying music and certain dishes."
+
+But to match the exact outputs, let me try to compile the key elements.
+
+
+Normalized prediction the instruction is i like cooking reading enjoying music certain dishes
+100%|██████████| 5/5 [00:21<00:00,  4.35s/it]100%|██████████| 5/5 [00:21<00:00,  4.34s/it]
+['Identify the animal in the list and return square of the zodiac number', 'Find the zodiac animal in each list and output the square of its zodiac position', 'Locate the Chinese zodiac animal and return its zodiac number squared', 'Detect the zodiac animal from the items and calculate the square of its zodiac order', 'Identify which item is a zodiac animal and return the square of its zodiac ranking', 'Find the Chinese zodiac animal in the list and output its position number squared', 'Recognize the zodiac animal and return the square of its numerical position in the zodiac cycle', 'Determine which animal corresponds to the Chinese zodiac and calculate the square of its zodiac number']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: For each input, determine its position in the given list and output the square of that position number.
+
+**Step-by-Step Explanation:**
+
+1.
+Normalized prediction the instruction is for each input determine its position in the given list output the square of that position number
+ 20%|██        | 1/5 [00:04<00:18,  4.51s/it]Predictions  The instruction is: "Count the number of letters in each word and multiply them together."
+
+Let's test this.
+
+First input: snake, grass, rock, desert,
+Normalized prediction the instruction is count the number of letters in each word multiply them together
+ 40%|████      | 2/5 [00:08<00:13,  4.39s/it]Predictions  The instruction is: "Calculate the square of (number of items + (6 - position of input))"
+
+Wait let me verify:
+
+Wait input 1 is the first
+Normalized prediction the instruction is calculate the square of number of items 6 position of input wait let me verify wait input 1 is the first
+ 60%|██████    | 3/5 [00:13<00:08,  4.37s/it]Predictions  The instruction is: For each input, count the number of words, subtract an incrementing number (starting at 2 and increasing by 1 each time for the first
+Normalized prediction the instruction is for each input count the number of words subtract an incrementing number starting at 2 increasing by 1 each time for the first
+ 80%|████████  | 4/5 [00:17<00:04,  4.38s/it]Predictions  The instruction is: "Find the sum of the squares of the number of letters in each word."
+
+Wait let's test this.
+
+First input: vineyard, grape,
+Normalized prediction the instruction is find the sum of the squares of the number of letters in each word
+100%|██████████| 5/5 [00:21<00:00,  4.36s/it]100%|██████████| 5/5 [00:21<00:00,  4.38s/it]
+['Alternate between giving an antonym and synonym of the words in the sentence', 'Replace words in the sentence by alternating between opposites and similar words', 'Transform the sentence by switching between antonyms and synonyms for each word', 'Modify each word in the sentence alternately using antonyms and synonyms', 'Rewrite the sentence alternating between opposite meanings and similar meanings for words', 'Change words in sequence by alternating between contrasting terms and equivalent terms', 'Replace sentence words by alternating between contradictory and matching word choices', 'Transform each word alternately using opposing words and words with similar meanings']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: Transform the subject's size, speed, gender, and state, and describe the opposite or altered characteristics or states.
+
+Wait, perhaps the instruction is about
+Normalized prediction the instruction is transform the subjects size speed gender state describe the opposite or altered characteristics or states
+ 20%|██        | 1/5 [00:04<00:18,  4.51s/it]Predictions  The instruction is: "When something is green, it becomes red; when something is expensive, it becomes cheap; when something loves literature, it hates it; when something
+Normalized prediction the instruction is when something is green it becomes red when something is expensive it becomes cheap when something loves literature it hates it when something
+ 40%|████      | 2/5 [00:09<00:13,  4.57s/it]Predictions  The instruction is: "Change the subject and verb to describe the opposite action or time."
+
+But let me try to find a single instruction that fits all.
+
+Wait, perhaps
+Normalized prediction the instruction is change the subject verb to describe the opposite action or time
+ 60%|██████    | 3/5 [00:13<00:08,  4.45s/it]Predictions  The instruction is: "Change the subject's state and action to their opposites." So the original instruction was to invert the states and actions in the given input-output pairs
+Normalized prediction the instruction is change the subjects state action to their opposites
+ 80%|████████  | 4/5 [00:17<00:04,  4.42s/it]Predictions  The instruction is: "Evaluate the opposite effect or context when considering the given situation."
+
+**Step-by-Step Explanation:**
+
+1. **Identify the Pattern:** Look
+Normalized prediction the instruction is evaluate the opposite effect or context when considering the given situation
+100%|██████████| 5/5 [00:22<00:00,  4.41s/it]100%|██████████| 5/5 [00:22<00:00,  4.44s/it]
+['Identify the word with the most consonants and return its vowel count', 'Find which word has the highest number of consonants and output how many vowels it contains', 'Locate the word containing the most consonant letters and return the number of vowels in that word', 'Determine which word has the maximum consonants and provide its vowel count', 'Select the word with the greatest consonant count and output the number of vowels it has', 'Find the most consonant-heavy word and return how many vowels are in it', 'Identify which word contains the most consonant sounds and count its vowels', 'Pick the word with the highest consonant frequency and return its total vowel count']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: count the number of positive emotions in the input list."
+
+Let's check:
+
+First input: [cat, dog, elephant, bird, fish]. Positive
+Normalized prediction the instruction is count the number of positive emotions in the input list
+ 20%|██        | 1/5 [00:04<00:17,  4.29s/it]Predictions  The instruction is: "Count the number of items in the input that start with a vowel." Let's verify:
+
+1. Input: apple, banana, orange, grape
+Normalized prediction the instruction is count the number of items in the input that start with a vowel
+ 40%|████      | 2/5 [00:08<00:13,  4.39s/it]Predictions  The instruction is: "Count the number of items in the input set minus 4."
+
+Let me verify:
+
+1. 5 -4=1 → Output 1
+Normalized prediction the instruction is count the number of items in the input set minus 4
+ 60%|██████    | 3/5 [00:13<00:08,  4.36s/it]Predictions  The instruction is: "Determine the number of terms that are specific or meaningful in the context of the given input."
+
+Let me verify:
+
+1. complicated, sophisticated,
+Normalized prediction the instruction is determine the number of terms that are specific or meaningful in the context of the given input
+ 80%|████████  | 4/5 [00:17<00:04,  4.32s/it]Predictions  The instruction is: "Count the number of items whose names start with a vowel."
+
+Let me test this hypothesis.
+
+First input: refrigerator, calculator, computer, helicopter,
+Normalized prediction the instruction is count the number of items whose names start with a vowel
+100%|██████████| 5/5 [00:21<00:00,  4.30s/it]100%|██████████| 5/5 [00:21<00:00,  4.32s/it]
+['Identify the word with the fewest unique letters and return its total letter count', 'Find which word has the smallest number of distinct letters and output its total length', 'Locate the word containing the least variety of different letters and return how many letters it has', 'Determine which word has the minimum number of unique characters and provide its total character count', 'Select the word with the fewest different letters and output its complete letter count', 'Find the word with the lowest unique letter diversity and return its total letter length', 'Identify which word contains the smallest set of distinct letters and count its total letters', 'Pick the word with the most repeated letters and return its overall letter count']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Count the number of items that start with a vowel." Let's test this.
+
+First input: cat, dog, elephant, bird, fish.
+
+
+Normalized prediction the instruction is count the number of items that start with a vowel
+ 20%|██        | 1/5 [00:04<00:16,  4.24s/it]Predictions  The instruction is: "Count the number of words in the input." Let's check:
+
+First input: 5 words → output 5.
+
+Second input: 5
+Normalized prediction the instruction is count the number of words in the input
+ 40%|████      | 2/5 [00:08<00:12,  4.26s/it]Predictions  The instruction is: "Count the number of items in the list." 
+
+Let me verify:
+
+1. 5 items → Output 5: Correct.
+
+2. 
+Normalized prediction the instruction is count the number of items in the list
+ 60%|██████    | 3/5 [00:12<00:07,  4.00s/it]Predictions  The instruction is: "Count the number of words that are longer than 5 letters."
+
+First input: complicated (11 letters) → longer than 5: all
+Normalized prediction the instruction is count the number of words that are longer than 5 letters
+ 80%|████████  | 4/5 [00:15<00:03,  3.90s/it]Predictions  The instruction is: "Count the number of syllables in each word and sum them."
+
+Let's test this:
+
+1. refrigerator: 'refrigerator' has 
+Normalized prediction the instruction is count the number of syllables in each word sum them
+100%|██████████| 5/5 [00:20<00:00,  4.03s/it]100%|██████████| 5/5 [00:20<00:00,  4.04s/it]
+['Find the word that comes first alphabetically and return it in reverse', 'Identify which word appears first in alphabetical order and output it backwards', 'Locate the alphabetically earliest word and return it with letters reversed', 'Determine which word comes first alphabetically and provide it in reverse order', 'Select the word that appears first when sorted alphabetically and reverse its spelling', 'Find the alphabetically primary word and return it with characters in reverse sequence', 'Identify the word that would appear first in a dictionary and output it backwards', 'Pick the alphabetically leading word and return it with its letters reversed']
+  0%|          | 0/5 [00:00<?, ?it/s]Predictions  The instruction is: "Convert the first letter of each word in the input list to the corresponding letter in the output."
+
+Wait let me check:
+
+First Input-Output pair
+Normalized prediction the instruction is convert the first letter of each word in the input list to the corresponding letter in the output
+ 20%|██        | 1/5 [00:04<00:17,  4.30s/it]Predictions  The instruction is: Take the last letter of each input word and combine them.
+
+Let's test:
+
+Input words:
+
+magazine → e
+
+article → r
+
+newsp
+Normalized prediction the instruction is take the last letter of each input word combine them
+ 40%|████      | 2/5 [00:08<00:11,  4.00s/it]Predictions  The instruction is: "Determine the output based on the given inputs and outputs."
+
+Wait, perhaps the instruction is to find a pattern or rule that transforms the input list
+Normalized prediction the instruction is determine the output based on the given inputs outputs
+ 60%|██████    | 3/5 [00:11<00:07,  3.85s/it]Predictions  The instruction is: "Convert each input word into the output letters based on the first letter of each word in the input."
+
+Wait, let's test this:
+
+First input
+Normalized prediction the instruction is convert each input word into the output letters based on the first letter of each word in the input
+ 80%|████████  | 4/5 [00:15<00:03,  3.76s/it]Predictions  The instruction is: "Convert the given words into a specific code based on the outputs provided."
+
+But let's look for a pattern in the outputs.
+
+Wait, perhaps it
+Normalized prediction the instruction is convert the given words into a specific code based on the outputs provided
+100%|██████████| 5/5 [00:19<00:00,  4.03s/it]100%|██████████| 5/5 [00:19<00:00,  3.97s/it]

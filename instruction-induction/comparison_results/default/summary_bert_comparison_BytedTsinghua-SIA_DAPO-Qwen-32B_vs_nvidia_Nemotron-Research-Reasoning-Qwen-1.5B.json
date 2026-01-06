@@ -1,0 +1,27 @@
+{
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "task_scores": {
+    "cause_and_effect": 0.5149509012699127,
+    "larger_animal": 0.5032414257526397,
+    "num_to_verbal": 0.5712492942810059,
+    "orthography_starts_with": 0.5203472554683686,
+    "rhymes": 0.5576704800128937,
+    "synonyms": 0.5203235030174256,
+    "taxonomy_animal": 0.5731634318828582,
+    "translation_en-fr": 0.5465599298477173,
+    "reverse_from_middle": 0.541960883140564,
+    "smallest_item_length": 0.6094195961952209,
+    "smallest_even_no_sqrt": 0.5348460257053376,
+    "most_vowel_return_consonant": 0.5567573845386505,
+    "detect_rhyme_and_rewrite": 0.5491822600364685,
+    "rank_by_protein": 0.5940232157707215,
+    "multi_lang_to_english": 0.4671371340751648,
+    "square_of_zodiac_animal": 0.6130486369132996,
+    "alternate_synonym_antonym": 0.5483026146888733,
+    "most_consonant_return_vowel": 0.5713636100292205,
+    "least_unique_word_count": 0.5902515649795532,
+    "first_word_alphabetically_return_reverse": 0.558053457736969
+  },
+  "average_bert_score": 0.5520926302671432
+}

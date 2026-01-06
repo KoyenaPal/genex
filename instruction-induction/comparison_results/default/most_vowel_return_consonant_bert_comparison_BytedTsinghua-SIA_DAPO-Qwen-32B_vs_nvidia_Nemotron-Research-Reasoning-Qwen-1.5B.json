@@ -1,0 +1,51 @@
+{
+  "1": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that are not adjectives.\n\nLet's apply this rule to each input and see if it gives",
+    "model2_output": "The instruction is: \"Count the number of words that start with a consonant.\" Let's test this.\n\nFirst input: \"cat, beautiful, dog, house,",
+    "bert_1_to_2": 0.6404625177383423,
+    "bert_2_to_1": 0.6404625177383423,
+    "bert_score": 0.6404625177383423,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "2": {
+    "model1_output": "The instruction is: For each set of words, count the number of words that contain more than one vowel.\n\nLet's apply this rule to each input set and see if",
+    "model2_output": "The instruction is: \"Count the number of items in each input list and add one.\" This results in outputs of 6 for the first four inputs (each has",
+    "bert_1_to_2": 0.5703076124191284,
+    "bert_2_to_1": 0.5703076124191284,
+    "bert_score": 0.5703076124191284,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "5": {
+    "model1_output": "The instruction is: For each set of words, count the total number of vowels (a, e, i, o, u) across all the words in the set",
+    "model2_output": "The instruction is: \"Count the number of words that are proper nouns or something else?\"\n\nWait let me think differently. Maybe it's the number of words that are",
+    "bert_1_to_2": 0.47773119807243347,
+    "bert_2_to_1": 0.47773119807243347,
+    "bert_score": 0.47773119807243347,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "11": {
+    "model1_output": "The instruction is: For each set of words, calculate the sum of the minimum and maximum number of letters in the words and then subtract 1 from this sum.\n\nLet",
+    "model2_output": "The instruction is: \"Count the number of syllables in each word.\"\n\nLet's verify:\n\nFirst input: personality (2), dog (1), cat (1),",
+    "bert_1_to_2": 0.5432155728340149,
+    "bert_2_to_1": 0.5432155728340149,
+    "bert_score": 0.5432155728340149,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "12": {
+    "model1_output": "The instruction is: For each list of words, count the number of words that contain the letter 'a' or 'e', and then add 2 to this count",
+    "model2_output": "The instruction is: \"Count the number of items that start with a vowel.\" Let's check:\n\nFirst set: inputs are imagination (I), pen (p), hat",
+    "bert_1_to_2": 0.5520700216293335,
+    "bert_2_to_1": 0.5520700216293335,
+    "bert_score": 0.5520700216293335,
+    "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+    "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+  },
+  "weighted_task_score": 0.5567573845386505,
+  "task_name": "most_vowel_return_consonant",
+  "model1_name": "BytedTsinghua-SIA_DAPO-Qwen-32B",
+  "model2_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B"
+}

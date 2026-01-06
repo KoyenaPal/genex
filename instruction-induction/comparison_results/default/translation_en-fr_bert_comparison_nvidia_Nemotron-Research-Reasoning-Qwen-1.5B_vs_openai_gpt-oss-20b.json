@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: \"Convert the input into its French equivalent.\" Let me check each input-output pair again.\n\nWait, let's look at the outputs:\n\n- \"restaurant",
+    "model2_output": "The instruction is: **“Translate the English word into French. If the word is already the same in French, leave it unchanged.”**<|return|>",
+    "bert_1_to_2": 0.5270054936408997,
+    "bert_2_to_1": 0.5270054936408997,
+    "bert_score": 0.5270054936408997,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "15": {
+    "model1_output": "The instruction is: change the word to its possessive form or something else.\n\nWait, let me look for the pattern:\n\nInput: monarchy → Output: monarchie",
+    "model2_output": "The instruction is: **“Translate the given English word into French.”**<|return|>",
+    "bert_1_to_2": 0.547417402267456,
+    "bert_2_to_1": 0.547417402267456,
+    "bert_score": 0.547417402267456,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "36": {
+    "model1_output": "The instruction is: Convert the input into its female equivalent or specific descriptive term.\n\n**Step-by-Step Explanation:**\n\n1. Analyze each input-output pair to identify",
+    "model2_output": "The instruction is: **Translate the English word into French, but if the word is already a French word (or a cognate that doesn’t change), leave it unchanged",
+    "bert_1_to_2": 0.50392746925354,
+    "bert_2_to_1": 0.50392746925354,
+    "bert_score": 0.50392746925354,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "82": {
+    "model1_output": "The instruction is: \"to create visual or artistic representations based on the input.\"\n\n**Step-by-Step Explanation:**\n\n1. **Identify the Pattern:** Look at",
+    "model2_output": "The instruction is: **“Translate the word into French if the French translation is different; otherwise leave the word unchanged.”**<|return|>",
+    "bert_1_to_2": 0.5076822638511658,
+    "bert_2_to_1": 0.5076822638511658,
+    "bert_score": 0.5076822638511658,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "95": {
+    "model1_output": "The instruction is: Convert each input into its French equivalent.\n\nTherefore, the instruction is likely the conversion of the given English words into their French counterparts.\n\nSo the instruction would",
+    "model2_output": "The instruction is: **“Translate the given English word into French.”**<|return|>",
+    "bert_1_to_2": 0.649988055229187,
+    "bert_2_to_1": 0.649988055229187,
+    "bert_score": 0.649988055229187,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "openai_gpt-oss-20b"
+  },
+  "weighted_task_score": 0.5472041368484497,
+  "task_name": "translation_en-fr",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "openai_gpt-oss-20b"
+}

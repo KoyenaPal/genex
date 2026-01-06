@@ -1,0 +1,51 @@
+{
+  "4": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using appropriate scale words such as thousand, hundred, etc.\n\nThe instruction is to convert the numbers into their",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands and the remaining three digits, then format the output using \"thousand\", \"hundred and",
+    "bert_1_to_2": 0.5902848243713379,
+    "bert_2_to_1": 0.5902848243713379,
+    "bert_score": 0.5902848243713379,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "15": {
+    "model1_output": "The instruction is: Convert each number into its word form by breaking it into thousands, hundreds, tens, and ones.\n\n**Final Answer**\nThe instruction was to convert each",
+    "model2_output": "<|begin_of_solution|> The instruction is: **\"Convert each number into words by splitting into thousands, hundreds, tens, and ones. Use 'thousand' for the thousands part, '",
+    "bert_1_to_2": 0.6834968328475952,
+    "bert_2_to_1": 0.6834968328475952,
+    "bert_score": 0.6834968328475952,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "36": {
+    "model1_output": "The instruction is: Convert numbers into their word equivalents by breaking them into thousands, hundreds, tens, and units, using \"thousand\", \"hundred\", and \"",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into its English word equivalent by breaking it into thousands, hundreds, tens, and ones. Use \"thousand\" for numbers ≥",
+    "bert_1_to_2": 0.7899875640869141,
+    "bert_2_to_1": 0.7899875640869141,
+    "bert_score": 0.7899875640869141,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "82": {
+    "model1_output": "The instruction is: Convert numbers into their word representation using the standard British number system, including \"and\" after the hundreds.\n\n**Step-by-Step Explanation:**\n\n1",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands, hundreds, and the remainder (tens and ones), then combine them using \"thousand",
+    "bert_1_to_2": 0.568708598613739,
+    "bert_2_to_1": 0.568708598613739,
+    "bert_score": 0.568708598613739,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "95": {
+    "model1_output": "The instruction is: Convert each input number into its English word representation using the specified breakdown into thousands, hundreds, tens, and units with appropriate scale words and \"and.\"",
+    "model2_output": "<|begin_of_solution|> The instruction is: **Convert each number into words by breaking it into thousands and the remaining part, then express each component (thousands, hundreds, tens, units)",
+    "bert_1_to_2": 0.7087032198905945,
+    "bert_2_to_1": 0.7087032198905945,
+    "bert_score": 0.7087032198905945,
+    "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+    "model2_name": "open-thoughts_OpenThinker-7B"
+  },
+  "weighted_task_score": 0.6682362079620361,
+  "task_name": "num_to_verbal",
+  "model1_name": "nvidia_Nemotron-Research-Reasoning-Qwen-1.5B",
+  "model2_name": "open-thoughts_OpenThinker-7B"
+}
