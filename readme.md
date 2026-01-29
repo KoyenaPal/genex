@@ -1,4 +1,4 @@
-<h1 align="center"> 🤖🤝🤖 HACHI 🤖🤝🤖 </h1>
+<h1 align="center"> 🤖🤝🤖 Explanation generalization 🤖🤝🤖 </h1>
 <p align="center"> <b>Do explanations generalize across large reasoning models?</b>  (<a href="https://arxiv.org/abs/2601.11517">Pal, Bau, & Singh, arXiv 2026</a>). 
 </p>
 
