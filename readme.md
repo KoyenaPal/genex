@@ -1,6 +1,7 @@
-<h1 align="center"> 🤖🤝🤖 Explanation generalization 🤖🤝🤖 </h1>
-<p align="center"> <b>Do explanations generalize across large reasoning models?</b>  (<a href="https://arxiv.org/abs/2601.11517">Pal, Bau, & Singh, arXiv 2026</a>). 
+<h1 align="center"> 🤖🤝🤖 Explanation persuasiveness 🤖🤝🤖 </h1>
+<p align="center"> <b>Persuasiveness of chain-of-thought explanations across LLMs</b>  (<a href="https://arxiv.org/abs/2601.11517">Pal, Bau, & Singh, arXiv 2026</a>). 
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-mit-green.svg">
@@ -23,15 +24,4 @@ The repository is organized into two main directories corresponding to the datas
     - Originally forked from: https://github.com/orhonovich/instruction-induction
     - Additional scripts and related code have been added directly within this directory.
 
-# Reference
-
-If you use this repository in your research, please cite:
-
-```bibtex
-@article{pal2026explanations,
-  title={Do explanations generalize across large reasoning models?},
-  author={Pal, Koyena and Bau, David and Singh, Chandan},
-  journal={arXiv preprint arXiv:2601.11517},
-  year={2026}
-}
 ```
