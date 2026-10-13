@@ -2652,14 +2652,14 @@ What is the patient's body surface area? Please output your answer in terms of m
 Please directly output the JSON dict formatted as {"step_by_step_thinking": str(your_step_by_step_thinking_procress_to_solve_the_question), "answer": str(short_and_direct_answer_of_the_question)}:
  91%|█████████ | 91/100 [34:24<03:24, 22.69s/it]
 Traceback (most recent call last):
-  File "/disk/u/koyena/MedCalc-Bench/evaluation/run_transfer_thoughts.py", line 296, in <module>
+  File "/path/to/MedCalc-Bench/evaluation/run_transfer_thoughts.py", line 296, in <module>
     source_thought_row = source_thought_data[source_thought_data["Row Number"] == int(row["Row Number"])].iloc[0]
                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
-  File "/disk/u/koyena/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+  File "/path/to/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
     return self._getitem_axis(maybe_callable, axis=axis)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/disk/u/koyena/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+  File "/path/to/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
     self._validate_integer(key, axis)
-  File "/disk/u/koyena/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+  File "/path/to/.venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
     raise IndexError("single positional indexer is out-of-bounds")
 IndexError: single positional indexer is out-of-bounds

@@ -33,7 +33,7 @@ np.random.seed(42)
 
 class LLMInference:
 
-    def __init__(self, llm_name="OpenAI/gpt-3.5-turbo", cache_dir="/disk/u/koyena/hf"):
+    def __init__(self, llm_name="OpenAI/gpt-3.5-turbo", cache_dir="/path/to/hf"):
         self.llm_name = llm_name
         self.cache_dir = cache_dir
         self.thinking_start_tag = ""

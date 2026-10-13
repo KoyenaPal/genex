@@ -13,7 +13,7 @@
 
 # Code overview
 
-Note that this repository is still being cleaned up. The contents presently consist of raw dumps from two separate forked repositories that were used during our research. If you want to use this immediately (whether the data or the RL trained models or other additional questions), contact Koyena at pal.k@northeastern.edu.
+Note that this repository is still being cleaned up. The contents presently consist of raw dumps from two separate forked repositories that were used during our research. If you want to use this immediately (whether the data or the RL trained models or other additional questions), please contact the authors (contact details withheld for anonymous review).
 
 The repository is organized into two main directories corresponding to the datasets we worked with:
 
